@@ -15,12 +15,22 @@
         <img width="700" height="300" src="./assets/logo.webp" alt="logo">
     </header>
     <section>
+        <!-- Pokemon Cards -->
         <div class="grid-container">
-            <div class="random">
+            <div class="left">
                 <img width="800" height="300" src="./assets/random.webp" alt="random graphic">
+                
+                <button class="btn">random pokémon</button>
+                <ul id="pokemon-list-left"></ul>
             </div>
-            <div class="search">
+            <div class="right">
                 <img width="700" height="300" src="./assets/search.webp" alt="search graphic">
+
+                <div class="search">
+                    <input type="text" id="pokemonName" placeholder="Pokémon Search" spellcheck="false" autocomplete="off" aria-label="search through Pokémon cards">
+                    <i id="icon" class="fa-solid fa-magnifying-glass"></i>
+                    <ul id="pokemon-list-right"></ul>
+                </div>
             </div>
         </div>
     </section>
