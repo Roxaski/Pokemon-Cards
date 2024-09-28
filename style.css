@@ -2601,16 +2601,10 @@ progress {
     header img {
         position: relative;
         margin: 50px auto 0;
-        width: 500px;
+        width: 450px;
     }
     .grid-container {
-        grid-template-columns: repeat(1, 1fr);
         margin: 0 auto;
-    }
-    .grid-container .left,
-    .grid-container .right {
-        margin-left: 0;
-        margin-right: 0;
     }
     .grid-container .left button,
     .grid-container .right input {
@@ -2626,6 +2620,16 @@ progress {
     .grid-container .left button:hover {
         color: var(--clr-grey);
         background: var(--clr-white);
+    }
+}
+@media screen and (max-width: 980px) {
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .grid-container .left,
+    .grid-container .right {
+        margin-left: 0;
+        margin-right: 0;
     }
 }
 @media screen and (max-width: 650px) {
