@@ -644,6 +644,1937 @@ progress {
 .stats-wrapper span {
     font-weight: 300;
 }
+/* Pokemon Card Gradients */
+/* Normal */
+.pokemon-type[class*="normal"] {
+    background: var(--gradient-normal);
+}
+.progress-bar[class*="normal"]::-webkit-progress-value {
+    background-color: var(--clr-lightest-grey);
+}
+.progress-bar[class*="normal"]::-moz-progress-bar {
+    background-color: var(--clr-lightest-grey);
+}
+/* Psychic */
+.pokemon-type[class*="psychic"] {
+    background: var(--gradient-psychic);
+}
+.progress-bar[class*="psychic"]::-webkit-progress-value {
+    background-color: var(--clr-dark-pink);
+}
+.progress-bar[class*="psychic"]::-moz-progress-bar {
+    background-color: var(--clr-dark-pink);
+}
+/* Rock */
+.pokemon-type[class*="rock"] {
+    background: var(--gradient-rock);
+}
+.progress-bar[class*="rock"]::-webkit-progress-value {
+    background-color: var(--clr-light-brown);
+}
+.progress-bar[class*="rock"]::-moz-progress-bar {
+    background-color: var(--clr-light-brown);
+}
+/* Steel */
+.pokemon-type[class*="steel"] {
+    background: var(--gradient-steel);
+}
+.progress-bar[class*="steel"]::-webkit-progress-value {
+    background-color: var(--clr-grey);
+}
+.progress-bar[class*="steel"]::-moz-progress-bar {
+    background-color: var(--clr-grey);
+}
+/* Flying*/
+.pokemon-type[class*="flying"] {
+    background: var(--gradient-flying);
+}
+.progress-bar[class*="flying"]::-webkit-progress-value {
+    background-color: var(--clr-dark-blue);
+}
+.progress-bar[class*="flying"]::-moz-progress-bar {
+    background-color: var(--clr-dark-blue);
+}
+/* Dark */
+.pokemon-type[class*="dark"] {
+    background: var(--gradient-dark);
+}
+.progress-bar[class*="dark"]::-webkit-progress-value {
+    background-color: var(--clr-light-grey);
+}
+.progress-bar[class*="dark"]::-moz-progress-bar {
+    background-color: var(--clr-light-grey);
+}
+/* Fairy */
+.pokemon-type[class*="fairy"] {
+    background: var(--gradient-fairy);
+}
+.progress-bar[class*="fairy"]::-webkit-progress-value {
+    background-color: var(--clr-light-pink);
+}
+.progress-bar[class*="fairy"]::-moz-progress-bar {
+    background-color: var(--clr-light-pink);
+}
+/* Dragon */
+.pokemon-type[class*="dragon"] {
+    background: var(--gradient-dragon);
+}
+.progress-bar[class*="dragon"]::-webkit-progress-value {
+    background-color: var(--clr-purple);
+}
+.progress-bar[class*="dragon"]::-moz-progress-bar {
+    background-color: var(--clr-purple);
+}
+/* Grass */
+.pokemon-type[class*="grass"] {
+    background: var(--gradient-grass);
+}
+.progress-bar[class*="grass"]::-webkit-progress-value {
+    background-color: var(--clr-dark-green);
+}
+.progress-bar[class*="grass"]::-moz-progress-bar {
+    background-color: var(--clr-dark-green);
+}
+/* Bug */
+.pokemon-type[class*="bug"] {
+    background: var(--gradient-bug);
+}
+.progress-bar[class*="bug"]::-webkit-progress-value {
+    background-color: var(--clr-light-green);
+}
+.progress-bar[class*="bug"]::-moz-progress-bar {
+    background-color: var(--clr-light-green);
+}
+/* Ground */
+.pokemon-type[class*="ground"] {
+    background: var(--gradient-ground);
+}
+.progress-bar[class*="ground"]::-webkit-progress-value {
+    background-color: var(--clr-dark-brown);
+}
+.progress-bar[class*="ground"]::-moz-progress-bar {
+    background-color: var(--clr-dark-brown);
+}
+/* Poison */
+.pokemon-type[class*="poison"] {
+    background: var(--gradient-poison);
+}
+.progress-bar[class*="poison"]::-webkit-progress-value {
+    background-color: var(--clr-dark-purple);
+}
+.progress-bar[class*="poison"]::-moz-progress-bar {
+    background-color: var(--clr-dark-purple);
+}
+/* Ghost */
+.pokemon-type[class*="ghost"] {
+    background: var(--gradient-ghost);
+}
+.progress-bar[class*="ghost"]::-webkit-progress-value {
+    background-color: var(--clr-lilac);
+}
+.progress-bar[class*="ghost"]::-moz-progress-bar {
+    background-color: var(--clr-lilac);
+}
+/* Fire */
+.pokemon-type[class*="fire"] {
+    background: var(--gradient-fire);
+}
+.progress-bar[class*="fire"]::-webkit-progress-value {
+    background-color: var(--clr-blood-orange);
+}
+.progress-bar[class*="fire"]::-moz-progress-bar {
+    background-color: var(--clr-blood-orange);
+}
+/* Ice */
+.pokemon-type[class*="ice"] {
+    background: var(--gradient-ice);
+}
+.progress-bar[class*="ice"]::-webkit-progress-value {
+    background-color: var(--clr-light-blue);
+}
+.progress-bar[class*="ice"]::-moz-progress-bar {
+    background-color: var(--clr-light-blue);
+}
+/* Water */
+.pokemon-type[class*="water"] {
+    background: var(--gradient-water);
+}
+.progress-bar[class*="water"]::-webkit-progress-value {
+    background-color: var(--clr-light-blue);
+}
+.progress-bar[class*="water"]::-moz-progress-bar {
+    background-color: var(--clr-light-blue);
+}
+/* Electric */
+.pokemon-type[class*="electric"] {
+    background: var(--gradient-electric);
+}
+.progress-bar[class*="electric"]::-webkit-progress-value {
+    background-color: var(--clr-burnt-yellow);
+}
+.progress-bar[class*="electric"]::-moz-progress-bar {
+    background-color: var(--clr-burnt-yellow);
+}
+/* Fighting */
+.pokemon-type[class*="fighting"] {
+    background: var(--gradient-fighting);
+}
+.progress-bar[class*="fighting"]::-webkit-progress-value {
+    background-color: var(--clr-dark-red);
+}
+.progress-bar[class*="fighting"]::-moz-progress-bar {
+    background-color: var(--clr-dark-red);
+}
+/* Normal & Dragon */
+.pokemon-type[class*="normal & dragon"] {
+    background: var(--gradient-normal-dragon);
+}
+.progress-bar[class*="normal & dragon"]::-webkit-progress-value {
+    background-color: var(--clr-lilac);
+}
+.progress-bar[class*="normal & dragon"]::-moz-progress-bar {
+    background-color: var(--clr-lilac);
+}
+/* Dragon & Normal */
+.pokemon-type[class*="dragon & normal"] {
+    background: var(--gradient-dragon-normal);
+}
+.progress-bar[class*="dragon & normal"]::-webkit-progress-value {
+    background-color: var(--clr-grey);
+}
+.progress-bar[class*="dragon & normal"]::-moz-progress-bar {
+    background-color: var(--clr-grey);
+}
+/* Dark & Psychic */
+.pokemon-type[class*="dark & psychic"] {
+    background: var(--gradient-dark-psychic);
+}
+.progress-bar[class*="dark & psychic"]::-webkit-progress-value {
+    background-color: var(--clr-light-pink);
+}
+.progress-bar[class*="dark & psychic"]::-moz-progress-bar {
+    background-color: var(--clr-light-pink);
+}
+/* Normal & Fighting */
+.pokemon-type[class*="normal & fighting"] {
+    background: var(--gradient-normal-fighting);
+}
+.progress-bar[class*="normal & fighting"]::-webkit-progress-value {
+    background-color: var(--clr-ruby-red);
+}
+.progress-bar[class*="normal & fighting"]::-moz-progress-bar {
+    background-color: var(--clr-ruby-red);
+}
+/* Normal & Flying */
+.pokemon-type[class*="normal & flying"] {
+    background: var(--gradient-normal-flying);
+}
+.progress-bar[class*="normal & flying"]::-webkit-progress-value {
+    background-color: var(--clr-sky-blue);
+}
+.progress-bar[class*="normal & flying"]::-moz-progress-bar {
+    background-color: var(--clr-sky-blue);
+}
+/* Normal & Psychic */
+.pokemon-type[class*="normal & psychic"] {
+    background: var(--gradient-normal-psychic);
+}
+.progress-bar[class*="normal & psychic"]::-webkit-progress-value {
+    background-color: var(--clr-light-pink);
+}
+.progress-bar[class*="normal & psychic"]::-moz-progress-bar {
+    background-color: var(--clr-light-pink);
+}
+/* Psychic & Flying */
+.pokemon-type[class*="psychic & flying"] {
+    background: var(--gradient-psychic-flying);
+}
+.progress-bar[class*="psychic & flying"]::-webkit-progress-value {
+    background-color: var(--clr-sky-blue);
+}
+.progress-bar[class*="psychic & flying"]::-moz-progress-bar {
+    background-color: var(--clr-sky-blue);
+}
+/* Steel & Flying */
+.pokemon-type[class*="steel & flying"] {
+    background: var(--gradient-steel-flying);
+}
+.progress-bar[class*="steel & flying"]::-webkit-progress-value {
+    background-color: var(--clr-sky-blue);
+}
+.progress-bar[class*="steel & flying"]::-moz-progress-bar {
+    background-color: var(--clr-sky-blue);
+}
+/* Steel & Ghost */
+.pokemon-type[class*="steel & ghost"] {
+    background: var(--gradient-steel-ghost);
+}
+.progress-bar[class*="steel & ghost"]::-webkit-progress-value {
+    background-color: var(--clr-dark-lilac);
+}
+.progress-bar[class*="steel & ghost"]::-moz-progress-bar {
+    background-color: var(--clr-dark-lilac);
+}
+/* Ground & Dragon */
+.pokemon-type[class*="ground & dragon"] {
+    background: var(--gradient-ground-dragon);
+}
+.progress-bar[class*="ground & dragon"]::-webkit-progress-value {
+    background-color: var(--clr-dark-brown);
+}
+.progress-bar[class*="ground & dragon"]::-moz-progress-bar {
+    background-color: var(--clr-dark-brown);
+}
+/* Ground & Dark */
+.pokemon-type[class*="ground & dark"] {
+    background: var(--gradient-ground-dark);
+}
+.progress-bar[class*="ground & dark"]::-webkit-progress-value {
+    background-color: var(--clr-dark-brown-khaki);
+}
+.progress-bar[class*="ground & dark"]::-moz-progress-bar {
+    background-color: var(--clr-dark-brown-khaki);
+}
+/* Dark & Fighting */
+.pokemon-type[class*="dark & fighting"] {
+    background: var(--gradient-dark-fighting);
+}
+.progress-bar[class*="dark & fighting"]::-webkit-progress-value {
+    background-color: var(--clr-ruby-red);
+}
+.progress-bar[class*="dark & fighting"]::-moz-progress-bar {
+    background-color: var(--clr-ruby-red);
+}
+/* Poison & Flying */
+.pokemon-type[class*="poison & flying"] {
+    background: var(--gradient-poison-flying);
+}
+.progress-bar[class*="poison & flying"]::-webkit-progress-value {
+    background-color: var(--clr-light-blue);
+}
+.progress-bar[class*="poison & flying"]::-moz-progress-bar {
+    background-color: var(--clr-light-blue);
+}
+/* Dragon & Ice */
+.pokemon-type[class*="dragon & ice"] {
+    background: var(--gradient-dragon-ice);
+}
+.progress-bar[class*="dragon & ice"]::-webkit-progress-value {
+    background-color: var(--clr-ice-blue);
+}
+.progress-bar[class*="dragon & ice"]::-moz-progress-bar {
+    background-color: var(--clr-ice-blue);
+}
+/* Dragon & Dark */
+.pokemon-type[class*="dragon & dark"] {
+    background: var(--gradient-dragon-dark);
+}
+.progress-bar[class*="dragon & dark"]::-webkit-progress-value {
+    background-color: var(--clr-blk-khaki);
+}
+.progress-bar[class*="dragon & dark"]::-moz-progress-bar {
+    background-color: var(--clr-blk-khaki);
+}
+/* Bug & Steel */
+.pokemon-type[class*="bug & steel"] {
+    background: var(--gradient-bug-steel);
+}
+.progress-bar[class*="bug & steel"]::-webkit-progress-value {
+    background-color: var(--clr-light-green);
+}
+.progress-bar[class*="bug & steel"]::-moz-progress-bar {
+    background-color: var(--clr-light-green);
+}
+/* Steel & Rock */
+.pokemon-type[class*="steel & rock"] {
+    background: var(--gradient-steel-rock);
+}
+.progress-bar[class*="steel & rock"]::-webkit-progress-value {
+    background-color: var(--clr-khaki);
+}
+.progress-bar[class*="steel & rock"]::-moz-progress-bar {
+    background-color: var(--clr-khaki);
+}
+/* Fairy & Steel */
+.pokemon-type[class*="fairy & steel"] {
+    background: var(--gradient-fairy-steel);
+}
+.progress-bar[class*="fairy & steel"]::-webkit-progress-value {
+    background-color: var(--clr-lightest-grey);
+}
+.progress-bar[class*="fairy & steel"]::-moz-progress-bar {
+    background-color: var(--clr-lightest-grey);
+}
+/* Psychic & Fairy */
+.pokemon-type[class*="psychic & fairy"] {
+    background: var(--gradient-psychic-fairy);
+}
+.progress-bar[class*="psychic & fairy"]::-webkit-progress-value {
+    background-color: var(--clr-fuschia);
+}
+.progress-bar[class*="psychic & fairy"]::-moz-progress-bar {
+    background-color: var(--clr-fuschia);
+}
+/* Ground & Psychic */
+.pokemon-type[class*="ground & psychic"] {
+    background: var(--gradient-ground-psychic);
+}
+.progress-bar[class*="ground & psychic"]::-webkit-progress-value {
+    background-color: var(--clr-light-pink);
+}
+.progress-bar[class*="ground & psychic"]::-moz-progress-bar {
+    background-color: var(--clr-light-pink);
+}
+/* Rock & Fairy */
+.pokemon-type[class*="rock & fairy"] {
+    background: var(--gradient-rock-fairy);
+}
+.progress-bar[class*="rock & fairy"]::-webkit-progress-value {
+    background-color: var(--clr-light-pink);
+}
+.progress-bar[class*="rock & fairy"]::-moz-progress-bar {
+    background-color: var(--clr-light-pink);
+}
+/* Dark & Fying */
+.pokemon-type[class*="dark & flying"] {
+    background: var(--gradient-dark-flying);
+}
+.progress-bar[class*="dark & flying"]::-webkit-progress-value {
+    background-color: var(--clr-light-blue);
+}
+.progress-bar[class*="dark & flying"]::-moz-progress-bar {
+    background-color: var(--clr-light-blue);
+}
+/* Fighting & Ghost */
+.pokemon-type[class*="fighting & ghost"] {
+    background: var(--gradient-fighting-ghost);
+}
+.progress-bar[class*="fighting & ghost"]::-webkit-progress-value {
+    background-color: var(--clr-dark-lilac);
+}
+.progress-bar[class*="fighting & ghost"]::-moz-progress-bar {
+    background-color: var(--clr-dark-lilac);
+}
+/* Water & Ice */
+.pokemon-type[class*="water & ice"] {
+    background: var(--gradient-water-ice);
+}
+.progress-bar[class*="water & ice"]::-webkit-progress-value {
+    background-color: var(--clr-ice-blue);
+}
+.progress-bar[class*="water & ice"]::-moz-progress-bar {
+    background-color: var(--clr-ice-blue);
+}
+/* Fighting & Electric */
+.pokemon-type[class*="fighting & electric"] {
+    background: var(--gradient-fighting-electric);
+}
+.progress-bar[class*="fighting & electric"]::-webkit-progress-value {
+    background-color: var(--clr-burnt-yellow);
+}
+.progress-bar[class*="fighting & electric"]::-moz-progress-bar {
+    background-color: var(--clr-burnt-yellow);
+}
+/* Water & Psychic */
+.pokemon-type[class*="water & psychic"] {
+    background: var(--gradient-water-psychic);
+}
+.progress-bar[class*="water & psychic"]::-webkit-progress-value {
+    background-color: var(--clr-light-pink);
+}
+.progress-bar[class*="water & psychic"]::-moz-progress-bar {
+    background-color: var(--clr-light-pink);
+}
+/* Grass & Poison */
+.pokemon-type[class*="grass & poison"] {
+    background: var(--gradient-grass-poison);
+}
+.progress-bar[class*="grass & poison"]::-webkit-progress-value {
+    background-color: var(--clr-mauve);
+}
+.progress-bar[class*="grass & poison"]::-moz-progress-bar {
+    background-color: var(--clr-mauve);
+}
+/* Grass & Flying */
+.pokemon-type[class*="grass & flying"] {
+    background: var(--gradient-grass-flying);
+}
+.progress-bar[class*="grass & flying"]::-webkit-progress-value {
+    background-color: var(--clr-pale-blue);
+}
+.progress-bar[class*="grass & flying"]::-moz-progress-bar {
+    background-color: var(--clr-pale-blue);
+}
+/* Rock & Steel */
+.pokemon-type[class*="rock & steel"] {
+    background: var(--gradient-rock-steel);
+}
+.progress-bar[class*="rock & steel"]::-webkit-progress-value {
+    background-color: var(--clr-lightest-grey);
+}
+.progress-bar[class*="rock & steel"]::-moz-progress-bar {
+    background-color: var(--clr-lightest-grey);
+}
+/* Fire & Fighting */
+.pokemon-type[class*="fire & fighting"] {
+    background: var(--gradient-fire-fighting);
+}
+.progress-bar[class*="fire & fighting"]::-webkit-progress-value {
+    background-color: var(--clr-magenta);
+}
+.progress-bar[class*="fire & fighting"]::-moz-progress-bar {
+    background-color: var(--clr-magenta);
+}
+/* Fire & Water */
+.pokemon-type[class*="fire & water"] {
+    background: var(--gradient-fire-water);
+}
+.progress-bar[class*="fire & water"]::-webkit-progress-value {
+    background-color: var(--clr-dark-blue);
+}
+.progress-bar[class*="fire & water"]::-moz-progress-bar {
+    background-color: var(--clr-dark-blue);
+}
+/* Ice & Ground */
+.pokemon-type[class*="ice & ground"] {
+    background: var(--gradient-ice-ground);
+}
+.progress-bar[class*="ice & ground"]::-webkit-progress-value {
+    background-color: var(--clr-brown);
+}
+.progress-bar[class*="ice & ground"]::-moz-progress-bar {
+    background-color: var(--clr-brown);
+}
+/* Water & Poison */
+.pokemon-type[class*="water & poison"] {
+    background: var(--gradient-water-poison);
+}
+.progress-bar[class*="water & poison"]::-webkit-progress-value {
+    background-color: var(--clr-lilac);
+}
+.progress-bar[class*="water & poison"]::-moz-progress-bar {
+    background-color: var(--clr-khaki);
+}
+/* Water & Flying */
+.pokemon-type[class*="water & flying"] {
+    background: var(--gradient-water-flying);
+}
+.progress-bar[class*="water & flying"]::-webkit-progress-value {
+    background-color: var(--clr-pale-blue);
+}
+.progress-bar[class*="water & flying"]::-moz-progress-bar {
+    background-color: var(--clr-pale-blue);
+}
+/* Poison & Bug */
+.pokemon-type[class*="poison & bug"] {
+    background: var(--gradient-poison-bug);
+}
+.progress-bar[class*="poison & bug"]::-webkit-progress-value {
+    background-color: var(--clr-light-green);
+}
+.progress-bar[class*="poison & bug"]::-moz-progress-bar {
+    background-color: var(--clr-light-green);
+}
+/* Fire & Bug */
+.pokemon-type[class*="fire & bug"] {
+    background: var(--gradient-fire-bug);
+}
+.progress-bar[class*="fire & bug"]::-webkit-progress-value {
+    background-color: var(--clr-light-green);
+}
+.progress-bar[class*="fire & bug"]::-moz-progress-bar {
+    background-color: var(--clr-light-green);
+}
+/* Ground & Rock */
+.pokemon-type[class*="ground & rock"] {
+    background: var(--gradient-ground-rock);
+}
+.progress-bar[class*="ground & rock"]::-webkit-progress-value {
+    background-color: var(--clr-dark-brown);
+}
+.progress-bar[class*="ground & rock"]::-moz-progress-bar {
+    background-color: var(--clr-dark-brown);
+}
+/* Bug & Psychic */
+.pokemon-type[class*="bug & psychic"] {
+    background: var(--gradient-bug-psychic);
+}
+.progress-bar[class*="bug & psychic"]::-webkit-progress-value {
+    background-color: var(--clr-light-pink);
+}
+.progress-bar[class*="bug & psychic"]::-moz-progress-bar {
+    background-color: var(--clr-light-pink);
+}
+/* Poison & Water */
+.pokemon-type[class*="poison & water"] {
+    background: var(--gradient-poison-water);
+}
+.progress-bar[class*="poison & water"]::-webkit-progress-value {
+    background-color: var(--clr-light-blue);
+}
+.progress-bar[class*="poison & water"]::-moz-progress-bar {
+    background-color: var(--clr-light-blue);
+}
+/* Dark & Dragon */
+.pokemon-type[class*="dark & dragon"] {
+    background: var(--gradient-dark-dragon);
+}
+.progress-bar[class*="dark & dragon"]::-webkit-progress-value {
+    background-color: var(--clr-mauve);
+}
+.progress-bar[class*="dark & dragon"]::-moz-progress-bar {
+    background-color: var(--clr-mauve);
+}
+/* Dark & Grass */
+.pokemon-type[class*="dark & grass"] {
+    background: var(--gradient-dark-grass);
+}
+.progress-bar[class*="dark & grass"]::-webkit-progress-value {
+    background-color: var(--clr-green);
+}
+.progress-bar[class*="dark & grass"]::-moz-progress-bar {
+    background-color: var(--clr-green);
+}
+/* Rock & Fighting */
+.pokemon-type[class*="rock & fighting"] {
+    background: var(--gradient-rock-fighting);
+}
+.progress-bar[class*="rock & fighting"]::-webkit-progress-value {
+    background-color: var(--clr-ruby-red);
+}
+.progress-bar[class*="rock & fighting"]::-moz-progress-bar {
+    background-color: var(--clr-ruby-red);
+}
+/* Dragon & Flying */
+.pokemon-type[class*="dragon & flying"] {
+    background: var(--gradient-dragon-flying);
+}
+.progress-bar[class*="dragon & flying"]::-webkit-progress-value {
+    background-color: var(--clr-purple);
+}
+.progress-bar[class*="dragon & flying"]::-moz-progress-bar {
+    background-color: var(--clr-purple);
+}
+/* Water & Ghost */
+.pokemon-type[class*="water & ghost"] {
+    background: var(--gradient-water-ghost);
+}
+.progress-bar[class*="water & ghost"]::-webkit-progress-value {
+    background-color: var(--clr-lilac);
+}
+.progress-bar[class*="water & ghost"]::-moz-progress-bar {
+    background-color: var(--clr-lilac);
+}
+/* Bug & Grass */
+.pokemon-type[class*="bug & grass"] {
+    background: var(--gradient-bug-grass);
+}
+.progress-bar[class*="bug & grass"]::-webkit-progress-value {
+    background-color: var(--clr-light-green);
+}
+.progress-bar[class*="bug & grass"]::-moz-progress-bar {
+    background-color: var(--clr-light-green);
+}
+/* Bug & Ghost */
+.pokemon-type[class*="bug & ghost"] {
+    background: var(--gradient-bug-ghost);
+}
+.progress-bar[class*="bug & ghost"]::-webkit-progress-value {
+    background-color: var(--clr-lilac);
+}
+.progress-bar[class*="bug & ghost"]::-moz-progress-bar {
+    background-color: var(--clr-lilac);
+}
+/* Bug & Ground */
+.pokemon-type[class*="bug & ground"] {
+    background: var(--gradient-bug-ghost);
+}
+.progress-bar[class*="bug & ground"]::-webkit-progress-value {
+    background-color: var(--clr-light-green);
+}
+.progress-bar[class*="bug & ground"]::-moz-progress-bar {
+    background-color: var(--clr-light-green);
+}
+/* Steel & Fairy */
+.pokemon-type[class*="steel & fairy"] {
+    background: var(--gradient-steel-fairy);
+}
+.progress-bar[class*="steel & fairy"]::-webkit-progress-value {
+    background-color: var(--clr-fuschia);
+}
+.progress-bar[class*="steel & fairy"]::-moz-progress-bar {
+    background-color: var(--clr-fuschia);
+}
+/* Electric & Flying */
+.pokemon-type[class*="electric & flying"] {
+    background: var(--gradient-electric-flying);
+}
+.progress-bar[class*="electric & flying"]::-webkit-progress-value {
+    background-color: var(--clr-light-blue);
+}
+.progress-bar[class*="electric & flying"]::-moz-progress-bar {
+    background-color: var(--clr-light-blue);
+}
+/* Water & Rock */
+.pokemon-type[class*="water & rock"] {
+    background: var(--gradient-water-rock);
+}
+.progress-bar[class*="water & rock"]::-webkit-progress-value {
+    background-color: var(--clr-light-brown);
+}
+.progress-bar[class*="water & rock"]::-moz-progress-bar {
+    background-color: var(--clr-light-brown);
+}
+/* Dark & Ice */
+.pokemon-type[class*="dark & ice"] {
+    background: var(--gradient-dark-ice);
+}
+.progress-bar[class*="dark & ice"]::-webkit-progress-value {
+    background-color: var(--clr-ice-blue);
+}
+.progress-bar[class*="dark & ice"]::-moz-progress-bar {
+    background-color: var(--clr-ice-blue);
+}
+/* Water & Dark */
+.pokemon-type[class*="water & dark"] {
+    background: var(--gradient-water-dark);
+}
+.progress-bar[class*="water & dark"]::-webkit-progress-value {
+    background-color: var(--clr-dark-brown-khaki);
+}
+.progress-bar[class*="water & dark"]::-moz-progress-bar {
+    background-color: var(--clr-dark-brown-khaki);
+}
+/* Rock & Flying */
+.pokemon-type[class*="rock & flying"] {
+    background: var(--gradient-rock-flying);
+}
+.progress-bar[class*="rock & flying"]::-webkit-progress-value {
+    background-color: var(--clr-sky-blue);
+}
+.progress-bar[class*="rock & flying"]::-moz-progress-bar {
+    background-color: var(--clr-sky-blue);
+}
+/* Flying & Dark */
+.pokemon-type[class*="flying & dark"] {
+    background: var(--gradient-flying-dark);
+}
+.progress-bar[class*="flying & dark"]::-webkit-progress-value {
+    background-color: var(--clr-blk-khaki);
+}
+.progress-bar[class*="flying & dark"]::-moz-progress-bar {
+    background-color: var(--clr-blk-khaki);
+}
+/* Poison & Normal */
+.pokemon-type[class*="poison & normal"] {
+    background: var(--gradient-poison-normal);
+}
+.progress-bar[class*="poison & normal"]::-webkit-progress-value {
+    background-color: var(--clr-dark-purple);
+}
+.progress-bar[class*="poison & normal"]::-moz-progress-bar {
+    background-color: var(--clr-dark-purple);
+}
+/* Poison & Psychic */
+.pokemon-type[class*="poison & psychic"] {
+    background: var(--gradient-poison-psychic);
+}
+.progress-bar[class*="poison & psychic"]::-webkit-progress-value {
+    background-color: var(--clr-light-pink);
+}
+.progress-bar[class*="poison & psychic"]::-moz-progress-bar {
+    background-color: var(--clr-light-pink);
+}
+/* Bug & Flying */
+.pokemon-type[class*="bug & flying"] {
+    background: var(--gradient-bug-flying);
+}
+.progress-bar[class*="bug & flying"]::-webkit-progress-value {
+    background-color: var(--clr-sky-blue);
+}
+.progress-bar[class*="bug & flying"]::-moz-progress-bar {
+    background-color: var(--clr-sky-blue);
+}
+/* Water & Ground */
+.pokemon-type[class*="water & ground"] {
+    background: var(--gradient-water-ground);
+}
+.progress-bar[class*="water & ground"]::-webkit-progress-value {
+    background-color: var(--clr-wood-brown);
+}
+.progress-bar[class*="water & ground"]::-moz-progress-bar {
+    background-color: var(--clr-wood-brown);
+}
+/* Poison & Fire */
+.pokemon-type[class*="poison & fire"] {
+    background: var(--gradient-poison-fire);
+}
+.progress-bar[class*="poison & fire"]::-webkit-progress-value {
+    background-color: var(--clr-blood-orange);
+}
+.progress-bar[class*="poison & fire"]::-moz-progress-bar {
+    background-color: var(--clr-blood-orange);
+}
+/* Bug & Electric */
+.pokemon-type[class*="bug & electric"] {
+    background: var(--gradient-bug-electric);
+}
+.progress-bar[class*="bug & electric"]::-webkit-progress-value {
+    background-color: var(--clr-burnt-yellow);
+}
+.progress-bar[class*="bug & electric"]::-moz-progress-bar {
+    background-color: var(--clr-burnt-yellow);
+}
+/* Bug & Poison */
+.pokemon-type[class*="bug & poison"] {
+    background: var(--gradient-bug-poison);
+}
+.progress-bar[class*="bug & poison"]::-webkit-progress-value {
+    background-color: var(--clr-lilac);
+}
+.progress-bar[class*="bug & poison"]::-moz-progress-bar {
+    background-color: var(--clr-lilac);
+}
+/* Ghost & Fairy */
+.pokemon-type[class*="ghost & fairy"] {
+    background: var(--gradient-ghost-fairy);
+}
+.progress-bar[class*="ghost & fairy"]::-webkit-progress-value {
+    background-color: var(--clr-fuschia);
+}
+.progress-bar[class*="ghost & fairy"]::-moz-progress-bar {
+    background-color: var(--clr-fuschia);
+}
+/* Poison & Dark */
+.pokemon-type[class*="poison & dark"] {
+    background: var(--gradient-poison-dark);
+}
+.progress-bar[class*="poison & dark"]::-webkit-progress-value {
+    background-color: var(--clr-blk-khaki);
+}
+.progress-bar[class*="poison & dark"]::-moz-progress-bar {
+    background-color: var(--clr-blk-khaki);
+}
+/* Fire & Poison */
+.pokemon-type[class*="fire & poison"] {
+    background: var(--gradient-fire-poison);
+}
+.progress-bar[class*="fire & poison"]::-webkit-progress-value {
+    background-color: var(--clr-lilac);
+}
+.progress-bar[class*="fire & poison"]::-moz-progress-bar {
+    background-color: var(--clr-lilac);
+}
+/* Fire & Normal */
+.pokemon-type[class*="fire & normal"] {
+    background: var(--gradient-fire-normal);
+}
+.progress-bar[class*="fire & normal"]::-webkit-progress-value {
+    background-color: var(--clr-grey);
+}
+.progress-bar[class*="fire & normal"]::-moz-progress-bar {
+    background-color: var(--clr-grey);
+}
+/* Electric & Steel */
+.pokemon-type[class*="electric & steel"] {
+    background: var(--gradient-electric-steel);
+}
+.progress-bar[class*="electric & steel"]::-webkit-progress-value {
+    background-color: var(--clr-lightest-grey);
+}
+.progress-bar[class*="electric & steel"]::-moz-progress-bar {
+    background-color: var(--clr-lightest-grey);
+}
+/* Fighting & Steel */
+.pokemon-type[class*="fighting & steel"] {
+    background: var(--gradient-fighting-steel);
+}
+.progress-bar[class*="fighting & steel"]::-webkit-progress-value {
+    background-color: var(--clr-lightest-grey);
+}
+.progress-bar[class*="fighting & steel"]::-moz-progress-bar {
+    background-color: var(--clr-lightest-grey);
+}
+/* Bug & Fighting */
+.pokemon-type[class*="bug & fighting"] {
+    background: var(--gradient-bug-fighting);
+}
+.progress-bar[class*="bug & fighting"]::-webkit-progress-value {
+    background-color: var(--clr-ruby-red);
+}
+.progress-bar[class*="bug & fighting"]::-moz-progress-bar {
+    background-color: var(--clr-ruby-red);
+}
+/* Bug & Rock */
+.pokemon-type[class*="bug & rock"] {
+    background: var(--gradient-bug-rock);
+}
+.progress-bar[class*="bug & rock"]::-webkit-progress-value {
+    background-color: var(--clr-khaki);
+}
+.progress-bar[class*="bug & rock"]::-moz-progress-bar {
+    background-color: var(--clr-khaki);
+}
+/* Fire & Rock */
+.pokemon-type[class*="fire & rock"] {
+    background: var(--gradient-fire-rock);
+}
+.progress-bar[class*="fire & rock"]::-webkit-progress-value {
+    background-color: var(--clr-light-brown);
+}
+.progress-bar[class*="fire & rock"]::-moz-progress-bar {
+    background-color: var(--clr-light-brown);
+}
+/* Rock & Fire */
+.pokemon-type[class*="rock & fire"] {
+    background: var(--gradient-rock-fire);
+}
+.progress-bar[class*="rock & fire"]::-webkit-progress-value {
+    background-color: var(--clr-blood-orange);
+}
+.progress-bar[class*="rock & fire"]::-moz-progress-bar {
+    background-color: var(--clr-blood-orange);
+}
+/* Ice & Psychic */
+.pokemon-type[class*="ice & psychic"] {
+    background: var(--gradient-ice-psychic);
+}
+.progress-bar[class*="ice & psychic"]::-webkit-progress-value {
+    background-color: var(--clr-light-pink);
+}
+.progress-bar[class*="ice & psychic"]::-moz-progress-bar {
+    background-color: var(--clr-light-pink);
+}
+/* Steel & Psychic */
+.pokemon-type[class*="steel & psychic"] {
+    background: var(--gradient-steel-psychic);
+}
+.progress-bar[class*="steel & psychic"]::-webkit-progress-value {
+    background-color: var(--clr-light-pink);
+}
+.progress-bar[class*="steel & psychic"]::-moz-progress-bar {
+    background-color: var(--clr-light-pink);
+}
+/* Rock & Water */
+.pokemon-type[class*="rock & water"] {
+    background: var(--gradient-rock-water);
+}
+.progress-bar[class*="rock & water"]::-webkit-progress-value {
+    background-color: var(--clr-light-blue);
+}
+.progress-bar[class*="rock & water"]::-moz-progress-bar {
+    background-color: var(--clr-light-blue);
+}
+/* Rock & Bug */
+.pokemon-type[class*="rock & bug"] {
+    background: var(--gradient-rock-bug);
+}
+.progress-bar[class*="rock & bug"]::-webkit-progress-value {
+    background-color: var(--clr-light-green);
+}
+.progress-bar[class*="rock & bug"]::-moz-progress-bar {
+    background-color: var(--clr-light-green);
+}
+/* Ghost & Fire */
+.pokemon-type[class*="ghost & fire"] {
+    background: var(--gradient-ghost-fire);
+}
+.progress-bar[class*="ghost & fire"]::-webkit-progress-value {
+    background-color: var(--clr-red);
+}
+.progress-bar[class*="ghost & fire"]::-moz-progress-bar {
+    background-color: var(--clr-red);
+}
+/* Grass & Normal */
+.pokemon-type[class*="grass & normal"] {
+    background: var(--gradient-grass-normal);
+}
+.progress-bar[class*="grass & normal"]::-webkit-progress-value {
+    background-color: var(--clr-dark-green);
+}
+.progress-bar[class*="grass & normal"]::-moz-progress-bar {
+    background-color: var(--clr-dark-green);
+}
+/* Grass & Ice */
+.pokemon-type[class*="grass & ice"] {
+    background: var(--gradient-grass-ice);
+}
+.progress-bar[class*="grass & ice"]::-webkit-progress-value {
+    background-color: var(--clr-ice-blue);
+}
+.progress-bar[class*="grass & ice"]::-moz-progress-bar {
+    background-color: var(--clr-ice-blue);
+}
+/* Ghost & Poison */
+.pokemon-type[class*="ghost & poison"] {
+    background: var(--gradient-ghost-poison);
+}
+.progress-bar[class*="ghost & poison"]::-webkit-progress-value {
+    background-color: var(--clr-dark-purple);
+}
+.progress-bar[class*="ghost & poison"]::-moz-progress-bar {
+    background-color: var(--clr-dark-purple);
+}
+/* Grass & Dark */
+.pokemon-type[class*="grass & dark"] {
+    background: var(--gradient-grass-dark);
+}
+.progress-bar[class*="grass & dark"]::-webkit-progress-value {
+    background-color: var(--clr-blk-khaki);
+}
+.progress-bar[class*="grass & dark"]::-moz-progress-bar {
+    background-color: var(--clr-blk-khaki);
+}
+/* Poison & Ground */
+.pokemon-type[class*="poison & ground"] {
+    background: var(--gradient-poison-ground);
+}
+.progress-bar[class*="poison & ground"]::-webkit-progress-value {
+    background-color: var(--clr-dark-purple);
+}
+.progress-bar[class*="poison & ground"]::-moz-progress-bar {
+    background-color: var(--clr-dark-purple);
+}
+/* Water & Dragon */
+.pokemon-type[class*="water & dragon"] {
+    background: var(--gradient-water-dragon);
+}
+.progress-bar[class*="water & dragon"]::-webkit-progress-value {
+    background-color: var(--clr-lilac);
+}
+.progress-bar[class*="water & dragon"]::-moz-progress-bar {
+    background-color: var(--clr-lilac);
+}
+/* Flying & Water */
+.pokemon-type[class*="flying & water"] {
+    background: var(--gradient-flying-water);
+}
+.progress-bar[class*="flying & water"]::-webkit-progress-value {
+    background-color: var(--clr-dark-blue);
+}
+.progress-bar[class*="flying & water"]::-moz-progress-bar {
+    background-color: var(--clr-dark-blue);
+}
+/* Dragon & Psychic */
+.pokemon-type[class*="dragon & psychic"] {
+    background: var(--gradient-dragon-psychic);
+}
+.progress-bar[class*="dragon & psychic"]::-webkit-progress-value {
+    background-color: var(--clr-light-pink);
+}
+.progress-bar[class*="dragon & psychic"]::-moz-progress-bar {
+    background-color: var(--clr-light-pink);
+}
+/* Grround & Flying */
+.pokemon-type[class*="ground & flying"] {
+    background: var(--gradient-ground-flying);
+}
+.progress-bar[class*="ground & flying"]::-webkit-progress-value {
+    background-color: var(--clr-sky-blue);
+}
+.progress-bar[class*="ground & flying"]::-moz-progress-bar {
+    background-color: var(--clr-sky-blue);
+}
+/* Ice & Water */
+.pokemon-type[class*="ice & water"] {
+    background: var(--gradient-ice-water);
+}
+.progress-bar[class*="ice & water"]::-webkit-progress-value {
+    background-color: var(--clr-dark-blue);
+}
+.progress-bar[class*="ice & water"]::-moz-progress-bar {
+    background-color: var(--clr-dark-blue);
+}
+/* Rock & Psychic */
+.pokemon-type[class*="rock & psychic"] {
+    background: var(--gradient-rock-psychic);
+}
+.progress-bar[class*="rock & psychic"]::-webkit-progress-value {
+    background-color: var(--clr-light-pink);
+}
+.progress-bar[class*="rock & psychic"]::-moz-progress-bar {
+    background-color: var(--clr-light-pink);
+}
+/* Grass & Dragon */
+.pokemon-type[class*="grass & dragon"] {
+    background: var(--gradient-grass-dragon);
+}
+.progress-bar[class*="grass & dragon"]::-webkit-progress-value {
+    background-color: var(--clr-lilac);
+}
+.progress-bar[class*="grass & dragon"]::-moz-progress-bar {
+    background-color: var(--clr-lilac);
+}
+/* Normal & Fighting */
+.pokemon-type[class*="normal & fighting"] {
+    background: var(--gradient-normal-fighting);
+}
+.progress-bar[class*="normal & fighting"]::-webkit-progress-value {
+    background-color: var(--clr-red);
+}
+.progress-bar[class*="normal & fighting"]::-moz-progress-bar {
+    background-color: var(--clr-red);
+}
+/* Grass & Ghost */
+.pokemon-type[class*="grass & ghost"] {
+    background: var(--gradient-grass-ghost);
+}
+.progress-bar[class*="grass & ghost"]::-webkit-progress-value {
+    background-color: var(--clr-dark-lilac);
+}
+.progress-bar[class*="grass & ghost"]::-moz-progress-bar {
+    background-color: var(--clr-dark-lilac);
+}
+/* Electric & Normal */
+.pokemon-type[class*="electric & normal"] {
+    background: var(--gradient-electric-normal);
+}
+.progress-bar[class*="electric & normal"]::-webkit-progress-value {
+    background-color: var(--clr-grey);
+}
+.progress-bar[class*="electric & normal"]::-moz-progress-bar {
+    background-color: var(--clr-grey);
+}
+/* Grass & Psychic */
+.pokemon-type[class*="grass & psychic"] {
+    background: var(--gradient-grass-psychic);
+}
+.progress-bar[class*="grass & psychic"]::-webkit-progress-value {
+    background-color: var(--clr-light-pink);
+}
+.progress-bar[class*="grass & psychic"]::-moz-progress-bar {
+    background-color: var(--clr-light-pink);
+}
+/* Water & Bug */
+.pokemon-type[class*="water & bug"] {
+    background: var(--gradient-water-bug);
+}
+.progress-bar[class*="water & bug"]::-webkit-progress-value {
+    background-color: var(--clr-moss-green);
+}
+.progress-bar[class*="water & bug"]::-moz-progress-bar {
+    background-color: var(--clr-moss-green);
+}
+/* Dark & Normal */
+.pokemon-type[class*="dark & normal"] {
+    background: var(--gradient-dark-normal);
+}
+.progress-bar[class*="dark & normal"]::-webkit-progress-value {
+    background-color: var(--clr-light-grey);
+}
+.progress-bar[class*="dark & normal"]::-moz-progress-bar {
+    background-color: var(--clr-light-grey);
+}
+/* Dragon & Ghost */
+.pokemon-type[class*="dragon & ghost"] {
+    background: var(--gradient-dragon-ghost);
+}
+.progress-bar[class*="dragon & ghost"]::-webkit-progress-value {
+    background-color: var(--clr-dark-lilac);
+}
+.progress-bar[class*="dragon & ghost"]::-moz-progress-bar {
+    background-color: var(--clr-dark-lilac);
+}
+/* Rock & Poison */
+.pokemon-type[class*="rock & poison"] {
+    background: var(--gradient-rock-poison);
+}
+.progress-bar[class*="rock & poison"]::-webkit-progress-value {
+    background-color: var(--clr-lilac);
+}
+.progress-bar[class*="rock & poison"]::-moz-progress-bar {
+    background-color: var(--clr-lilac);
+}
+/* Ground & Steel */
+.pokemon-type[class*="ground & steel"] {
+    background: var(--gradient-ground-steel);
+}
+.progress-bar[class*="ground & steel"]::-webkit-progress-value {
+    background-color: var(--clr-lightest-grey);
+}
+.progress-bar[class*="ground & steel"]::-moz-progress-bar {
+    background-color: var(--clr-lightest-grey);
+}
+/* Fire & Flying */
+.pokemon-type[class*="fire & flying"] {
+    background: var(--gradient-fire-flying);
+}
+.progress-bar[class*="fire & flying"]::-webkit-progress-value {
+    background-color: var(--clr-sky-blue);
+}
+.progress-bar[class*="fire & flying"]::-moz-progress-bar {
+    background-color: var(--clr-sky-blue);
+}
+/* Bug & Dark */
+.pokemon-type[class*="bug & dark"] {
+    background: var(--gradient-bug-dark);
+}
+.progress-bar[class*="bug & dark"]::-webkit-progress-value {
+    background-color: var(--clr-blk-khaki);
+}
+.progress-bar[class*="bug & dark"]::-moz-progress-bar {
+    background-color: var(--clr-blk-khaki);
+}
+/* Fire & Ground */
+.pokemon-type[class*="fire & ground"] {
+    background: var(--gradient-fire-ground);
+}
+.progress-bar[class*="fire & ground"]::-webkit-progress-value {
+    background-color: var(--clr-wood-brown);
+}
+.progress-bar[class*="fire & ground"]::-moz-progress-bar {
+    background-color: var(--clr-wood-brown);
+}
+/* Water & Fairy */
+.pokemon-type[class*="water & fairy"] {
+    background: var(--gradient-water-fairy);
+}
+.progress-bar[class*="water & fairy"]::-webkit-progress-value {
+    background-color: var(--clr-fuschia);
+}
+.progress-bar[class*="water & fairy"]::-moz-progress-bar {
+    background-color: var(--clr-fuschia);
+}
+/* Rock & Ice */
+.pokemon-type[class*="rock & ice"] {
+    background: var(--gradient-rock-ice);
+}
+.progress-bar[class*="rock & ice"]::-webkit-progress-value {
+    background-color: var(--clr-ice-blue);
+}
+.progress-bar[class*="rock & ice"]::-moz-progress-bar {
+    background-color: var(--clr-ice-blue);
+}
+/* Rock & Ground */
+.pokemon-type[class*="rock & ground"] {
+    background: var(--gradient-rock-ground);
+}
+.progress-bar[class*="rock & ground"]::-webkit-progress-value {
+    background-color: var(--clr-brown);
+}
+.progress-bar[class*="rock & ground"]::-moz-progress-bar {
+    background-color: var(--clr-brown);
+}
+/* Ghost & Dragon */
+.pokemon-type[class*="ghost & dragon"] {
+    background: var(--gradient-ghost-dragon);
+}
+.progress-bar[class*="ghost & dragon"]::-webkit-progress-value {
+    background-color: var(--clr-lilac);
+}
+.progress-bar[class*="ghost & dragon"]::-moz-progress-bar {
+    background-color: var(--clr-lilac);
+}
+/* Electric & Dragon */
+.pokemon-type[class*="electric & dragon"] {
+    background: var(--gradient-electric-dragon);
+}
+.progress-bar[class*="electric & dragon"]::-webkit-progress-value {
+    background-color: var(--clr-lilac);
+}
+.progress-bar[class*="electric & dragon"]::-moz-progress-bar {
+    background-color: var(--clr-lilac);
+}
+/* Fighting & Flying */
+.pokemon-type[class*="fighting & flying"] {
+    background: var(--gradient-fighting-flying);
+}
+.progress-bar[class*="fighting & flying"]::-webkit-progress-value {
+    background-color: var(--clr-sky-blue);
+}
+.progress-bar[class*="fighting & flying"]::-moz-progress-bar {
+    background-color: var(--clr-sky-blue);
+}
+/* Ghost & Ground */
+.pokemon-type[class*="ghost & ground"] {
+    background: var(--gradient-ghost-ground);
+}
+.progress-bar[class*="ghost & ground"]::-webkit-progress-value {
+    background-color: var(--clr-brown);
+}
+.progress-bar[class*="ghost & ground"]::-moz-progress-bar {
+    background-color: var(--clr-brown);
+}
+/* Fire & Ghost */
+.pokemon-type[class*="fire & ghost"] {
+    background: var(--gradient-fire-ghost);
+}
+.progress-bar[class*="fire & ghost"]::-webkit-progress-value {
+    background-color: var(--clr-dark-lilac);
+}
+.progress-bar[class*="fire & ghost"]::-moz-progress-bar {
+    background-color: var(--clr-dark-lilac);
+}
+/* Normal & Grass */
+.pokemon-type[class*="normal & grass"] {
+    background: var(--gradient-normal-grass);
+}
+.progress-bar[class*="normal & grass"]::-webkit-progress-value {
+    background-color: var(--clr-green);
+}
+.progress-bar[class*="normal & grass"]::-moz-progress-bar {
+    background-color: var(--clr-green);
+}
+/* Rock & Dragon */
+.pokemon-type[class*="rock & dragon"] {
+    background: var(--gradient-rock-dragon);
+}
+.progress-bar[class*="rock & dragon"]::-webkit-progress-value {
+    background-color: var(--clr-lilac);
+}
+.progress-bar[class*="rock & dragon"]::-moz-progress-bar {
+    background-color: var(--clr-lilac);
+}
+/* Fairy & Flying */
+.pokemon-type[class*="fairy & flying"] {
+    background: var(--gradient-fairy-flying);
+}
+.progress-bar[class*="fairy & flying"]::-webkit-progress-value {
+    background-color: var(--clr-sky-blue);
+}
+.progress-bar[class*="fairy & flying"]::-moz-progress-bar {
+    background-color: var(--clr-sky-blue);
+}
+/* Fairy & Psychic */
+.pokemon-type[class*="fairy & psychic"] {
+    background: var(--gradient-fairy-psychic);
+}
+.progress-bar[class*="fairy & psychic"]::-webkit-progress-value {
+    background-color: var(--clr-light-pink);
+}
+.progress-bar[class*="fairy & psychic"]::-moz-progress-bar {
+    background-color: var(--clr-light-pink);
+}
+/* Psychic & Steel */
+.pokemon-type[class*="psychic & steel"] {
+    background: var(--gradient-psychic-steel);
+}
+.progress-bar[class*="psychic & steel"]::-webkit-progress-value {
+    background-color: var(--clr-pale-grey);
+}
+.progress-bar[class*="psychic & steel"]::-moz-progress-bar {
+    background-color: var(--clr-pale-grey);
+}
+/* Fire & Psychic */
+.pokemon-type[class*="fire & psychic"] {
+    background: var(--gradient-fire-psychic);
+}
+.progress-bar[class*="fire & psychic"]::-webkit-progress-value {
+    background-color: var(--clr-light-pink);
+}
+.progress-bar[class*="fire & psychic"]::-moz-progress-bar {
+    background-color: var(--clr-light-pink);
+}
+/* Bug & Fire */
+.pokemon-type[class*="bug & fire"] {
+    background: var(--gradient-bug-fire);
+}
+.progress-bar[class*="bug & fire"]::-webkit-progress-value {
+    background-color: var(--clr-blood-orange);
+}
+.progress-bar[class*="bug & fire"]::-moz-progress-bar {
+    background-color: var(--clr-blood-orange);
+}
+/* Normal & Ground */
+.pokemon-type[class*="normal & ground"] {
+    background: var(--gradient-normal-ground);
+}
+.progress-bar[class*="normal & ground"]::-webkit-progress-value {
+    background-color: var(--clr-wood-brown);
+}
+.progress-bar[class*="normal & ground"]::-moz-progress-bar {
+    background-color: var(--clr-wood-brown);
+}
+/* Ground & Normal */
+.pokemon-type[class*="ground & normal"] {
+    background: var(--gradient-ground-normal);
+}
+.progress-bar[class*="ground & normal"]::-webkit-progress-value {
+    background-color: var(--clr-light-grey);
+}
+.progress-bar[class*="ground & normal"]::-moz-progress-bar {
+    background-color: var(--clr-light-grey);
+}
+/* Rock & Dark */
+.pokemon-type[class*="rock & dark"] {
+    background: var(--gradient-rock-dark);
+}
+.progress-bar[class*="rock & dark"]::-webkit-progress-value {
+    background-color: var(--clr-blk-khaki);
+}
+.progress-bar[class*="rock & dark"]::-moz-progress-bar {
+    background-color: var(--clr-blk-khaki);
+}
+/* Flying & Dragon */
+.pokemon-type[class*="flying & dragon"] {
+    background: var(--gradient-flying-dragon);
+}
+.progress-bar[class*="flying & dragon"]::-webkit-progress-value {
+    background-color: var(--clr-lilac);
+}
+.progress-bar[class*="flying & dragon"]::-moz-progress-bar {
+    background-color: var(--clr-lilac);
+}
+/* Poison & Fighting */
+.pokemon-type[class*="poison & fighting"] {
+    background: var(--gradient-poison-fighting);
+}
+.progress-bar[class*="poison & fighting"]::-webkit-progress-value {
+    background-color: var(--clr-red);
+}
+.progress-bar[class*="poison & fighting"]::-moz-progress-bar {
+    background-color: var(--clr-red);
+}
+/* Poison & Fairy */
+.pokemon-type[class*="poison & fairy"] {
+    background: var(--gradient-poison-fairy);
+}
+.progress-bar[class*="poison & fairy"]::-webkit-progress-value {
+    background-color: var(--clr-light-pink);
+}
+.progress-bar[class*="poison & fairy"]::-moz-progress-bar {
+    background-color: var(--clr-light-pink);
+}
+/* Bug & Water */
+.pokemon-type[class*="bug & water"] {
+    background: var(--gradient-bug-water);
+}
+.progress-bar[class*="bug & water"]::-webkit-progress-value {
+    background-color: var(--clr-light-green);
+}
+.progress-bar[class*="bug & water"]::-moz-progress-bar {
+    background-color: var(--clr-light-green);
+}
+/* Steel & Ground */
+.pokemon-type[class*="steel & ground"] {
+    background: var(--gradient-steel-ground);
+}
+.progress-bar[class*="steel & ground"]::-webkit-progress-value {
+    background-color: var(--clr-brown);
+}
+.progress-bar[class*="steel & ground"]::-moz-progress-bar {
+    background-color: var(--clr-brown);
+}
+/* Grass & Steel */
+.pokemon-type[class*="grass & steel"] {
+    background: var(--gradient-grass-steel);
+}
+.progress-bar[class*="grass & steel"]::-webkit-progress-value {
+    background-color: var(--clr-dark-green);
+}
+.progress-bar[class*="grass & steel"]::-moz-progress-bar {
+    background-color: var(--clr-dark-green);
+}
+/* Electric & Fighting */
+.pokemon-type[class*="electric & fighting"] {
+    background: var(--gradient-electric-fighting);
+}
+.progress-bar[class*="electric & fighting"]::-webkit-progress-value {
+    background-color: var(--clr-red);
+}
+.progress-bar[class*="electric & fighting"]::-moz-progress-bar {
+    background-color: var(--clr-red);
+}
+/* Dark & Steel */
+.pokemon-type[class*="dark & steel"] {
+    background: var(--gradient-dark-steel);
+}
+.progress-bar[class*="dark & steel"]::-webkit-progress-value {
+    background-color: var(--clr-lightest-grey);
+}
+.progress-bar[class*="dark & steel"]::-moz-progress-bar {
+    background-color: var(--clr-lightest-grey);
+}
+/* Electric & Dark */
+.pokemon-type[class*="electric & dark"] {
+    background: var(--gradient-electric-dark);
+}
+.progress-bar[class*="electric & dark"]::-webkit-progress-value {
+    background-color: var(--clr-blk-khaki);
+}
+.progress-bar[class*="electric & dark"]::-moz-progress-bar {
+    background-color: var(--clr-blk-khaki);
+}
+/* Ghost & Grass */
+.pokemon-type[class*="ghost & grass"] {
+    background: var(--gradient-ghost-grass);
+}
+.progress-bar[class*="ghost & grass"]::-webkit-progress-value {
+    background-color: var(--clr-green);
+}
+.progress-bar[class*="ghost & grass"]::-moz-progress-bar {
+    background-color: var(--clr-green);
+}
+/* Psychic & Normal */
+.pokemon-type[class*="psychic & normal"] {
+    background: var(--gradient-psychic-normal);
+}
+.progress-bar[class*="psychic & normal"]::-webkit-progress-value {
+    background-color: var(--clr-grey);
+}
+.progress-bar[class*="psychic & normal"]::-moz-progress-bar {
+    background-color: var(--clr-grey);
+}
+/* Fire & Steel */
+.pokemon-type[class*="fire & steel"] {
+    background: var(--gradient-fire-steel);
+}
+.progress-bar[class*="fire & steel"]::-webkit-progress-value {
+    background-color: var(--clr-red);
+}
+.progress-bar[class*="fire & steel"]::-moz-progress-bar {
+    background-color: var(--clr-red);
+}
+/* Ice & Flying */
+.pokemon-type[class*="ice & flying"] {
+    background: var(--gradient-ice-flying);
+}
+.progress-bar[class*="ice & flying"]::-webkit-progress-value {
+    background-color: var(--clr-dark-blue);
+}
+.progress-bar[class*="ice & flying"]::-moz-progress-bar {
+    background-color: var(--clr-dark-blue);
+}
+/* Grass & Fighting */
+.pokemon-type[class*="grass & fighting"] {
+    background: var(--gradient-grass-fighting);
+}
+.progress-bar[class*="grass & fighting"]::-webkit-progress-value {
+    background-color: var(--clr-red);
+}
+.progress-bar[class*="grass & fighting"]::-moz-progress-bar {
+    background-color: var(--clr-red);
+}
+/* Ice & Ghost */
+.pokemon-type[class*="ice & ghost"] {
+    background: var(--gradient-ice-ghost);
+}
+.progress-bar[class*="ice & ghost"]::-webkit-progress-value {
+    background-color: var(--clr-dark-lilac);
+}
+.progress-bar[class*="ice & ghost"]::-moz-progress-bar {
+    background-color: var(--clr-dark-lilac);
+}
+/* Fighting & Poison */
+.pokemon-type[class*="fighting & poison"] {
+    background: var(--gradient-fighting-poison);
+}
+.progress-bar[class*="fighting & poison"]::-webkit-progress-value {
+    background-color: var(--clr-dark-lilac);
+}
+.progress-bar[class*="fighting & poison"]::-moz-progress-bar {
+    background-color: var(--clr-dark-lilac);
+}
+/* Dragon & Ground */
+.pokemon-type[class*="dragon & ground"] {
+    background: var(--gradient-dragon-ground);
+}
+.progress-bar[class*="dragon & ground"]::-webkit-progress-value {
+    background-color: var(--clr-brown);
+}
+.progress-bar[class*="dragon & ground"]::-moz-progress-bar {
+    background-color: var(--clr-brown);
+}
+/* Dragon & Fire */
+.pokemon-type[class*="dragon & fire"] {
+    background: var(--gradient-dragon-fire);
+}
+.progress-bar[class*="dragon & fire"]::-webkit-progress-value {
+    background-color: var(--clr-orange);
+}
+.progress-bar[class*="dragon & fire"]::-moz-progress-bar {
+    background-color: var(--clr-orange);
+}
+/* Ground & Grass */
+.pokemon-type[class*="ground & grass"] {
+    background: var(--gradient-ground-grass);
+}
+.progress-bar[class*="ground & grass"]::-webkit-progress-value {
+    background-color: var(--clr-green);
+}
+.progress-bar[class*="ground & grass"]::-moz-progress-bar {
+    background-color: var(--clr-green);
+}
+/* Dark & Fairy */
+.pokemon-type[class*="dark & fairy"] {
+    background: var(--gradient-dark-fairy);
+}
+.progress-bar[class*="dark & fairy"]::-webkit-progress-value {
+    background-color: var(--clr-dark-pink);
+}
+.progress-bar[class*="dark & fairy"]::-moz-progress-bar {
+    background-color: var(--clr-dark-pink);
+}
+/* Fighting & Dark */
+.pokemon-type[class*="fighting & dark"] {
+    background: var(--gradient-fighting-dark);
+}
+.progress-bar[class*="fighting & dark"]::-webkit-progress-value {
+    background-color: var(--clr-blk-khaki);
+}
+.progress-bar[class*="fighting & dark"]::-moz-progress-bar {
+    background-color: var(--clr-blk-khaki);
+}
+/* Grass & Fairy */
+.pokemon-type[class*="grass & fairy"] {
+    background: var(--gradient-grass-fairy);
+}
+.progress-bar[class*="grass & fairy"]::-webkit-progress-value {
+    background-color: var(--clr-dark-pink);
+}
+.progress-bar[class*="grass & fairy"]::-moz-progress-bar {
+    background-color: var(--clr-dark-pink);
+}
+/* Ground & Ghost */
+.pokemon-type[class*="ground & ghost"] {
+    background: var(--gradient-ground-ghost);
+}
+.progress-bar[class*="ground & ghost"]::-webkit-progress-value {
+    background-color: var(--clr-lilac);
+}
+.progress-bar[class*="ground & ghost"]::-moz-progress-bar {
+    background-color: var(--clr-lilac);
+}
+/* Flying & Fighting */
+.pokemon-type[class*="flying & fighting"] {
+    background: var(--gradient-flying-fighting);
+}
+.progress-bar[class*="flying & fighting"]::-webkit-progress-value {
+    background-color: var(--clr-red);
+}
+.progress-bar[class*="flying & fighting"]::-moz-progress-bar {
+    background-color: var(--clr-red);
+}
+/* Steel & Poison */
+.pokemon-type[class*="steel & poison"] {
+    background: var(--gradient-steel-poison);
+}
+.progress-bar[class*="steel & poison"]::-webkit-progress-value {
+    background-color: var(--clr-dark-lilac);
+}
+.progress-bar[class*="steel & poison"]::-moz-progress-bar {
+    background-color: var(--clr-dark-lilac);
+}
+/* Dark & Ghost */
+.pokemon-type[class*="dark & ghost"] {
+    background: var(--gradient-dark-ghost);
+}
+.progress-bar[class*="dark & ghost"]::-webkit-progress-value {
+    background-color: var(--clr-lilac);
+}
+.progress-bar[class*="dark & ghost"]::-moz-progress-bar {
+    background-color: var(--clr-lilac);
+}
+/* Grass & Fire */
+.pokemon-type[class*="grass & fire"] {
+    background: var(--gradient-grass-fire);
+}
+.progress-bar[class*="grass & fire"]::-webkit-progress-value {
+    background-color: var(--clr-orange);
+}
+.progress-bar[class*="grass & fire"]::-moz-progress-bar {
+    background-color: var(--clr-orange);
+}
+/* Rock & Electric */
+.pokemon-type[class*="rock & electric"] {
+    background: var(--gradient-rock-electric);
+}
+.progress-bar[class*="rock & electric"]::-webkit-progress-value {
+    background-color: var(--clr-burnt-yellow);
+}
+.progress-bar[class*="rock & electric"]::-moz-progress-bar {
+    background-color: var(--clr-burnt-yellow);
+}
+/* Water & Fighting */
+.pokemon-type[class*="water & fighting"] {
+    background: var(--gradient-water-fighting);
+}
+.progress-bar[class*="water & fighting"]::-webkit-progress-value {
+    background-color: var(--clr-blood-orange);
+}
+.progress-bar[class*="water & fighting"]::-moz-progress-bar {
+    background-color: var(--clr-blood-orange);
+}
+/* Ice & Bug */
+.pokemon-type[class*="ice & bug"] {
+    background: var(--gradient-ice-bug);
+}
+.progress-bar[class*="ice & bug"]::-webkit-progress-value {
+    background-color: var(--clr-moss-green);
+}
+.progress-bar[class*="ice & bug"]::-moz-progress-bar {
+    background-color: var(--clr-moss-green);
+}
+/* Dragon & Fighting */
+.pokemon-type[class*="dragon & fighting"] {
+    background: var(--gradient-dragon-fighting);
+}
+.progress-bar[class*="dragon & fighting"]::-webkit-progress-value {
+    background-color: var(--clr-ruby-red);
+}
+.progress-bar[class*="dragon & fighting"]::-moz-progress-bar {
+    background-color: var(--clr-ruby-red);
+}
+/* Bug & Fairy */
+.pokemon-type[class*="bug & fairy"] {
+    background: var(--gradient-bug-fairy);
+}
+.progress-bar[class*="bug & fairy"]::-webkit-progress-value {
+    background-color: var(--clr-light-green);
+}
+.progress-bar[class*="bug & fairy"]::-moz-progress-bar {
+    background-color: var(--clr-light-green);
+}
+/* Fighting & Psychic */
+.pokemon-type[class*="fighting & psychic"] {
+    background: var(--gradient-fighting-psychic);
+}
+.progress-bar[class*="fighting & psychic"]::-webkit-progress-value {
+    background-color: var(--clr-light-pink);
+}
+.progress-bar[class*="fighting & psychic"]::-moz-progress-bar {
+    background-color: var(--clr-light-pink);
+}
+/* Fighting & Ice */
+.pokemon-type[class*="fighting & ice"] {
+    background: var(--gradient-fighting-ice);
+}
+.progress-bar[class*="fighting & ice"]::-webkit-progress-value {
+    background-color: var(--clr-ice-blue);
+}
+.progress-bar[class*="fighting & ice"]::-moz-progress-bar {
+    background-color: var(--clr-ice-blue);
+}
+/* Electric & Poison */
+.pokemon-type[class*="electric & poison"] {
+    background: var(--gradient-electric-poison);
+}
+.progress-bar[class*="electric & poison"]::-webkit-progress-value {
+    background-color: var(--clr-lilac);
+}
+.progress-bar[class*="electric & poison"]::-moz-progress-bar {
+    background-color: var(--clr-lilac);
+}
+/* Electric & Ice */
+.pokemon-type[class*="electric & ice"] {
+    background: var(--gradient-electric-ice);
+}
+.progress-bar[class*="electric & ice"]::-webkit-progress-value {
+    background-color: var(--clr-sky-blue);
+}
+.progress-bar[class*="electric & ice"]::-moz-progress-bar {
+    background-color: var(--clr-sky-blue);
+}
+/* Ground & Fighting */
+.pokemon-type[class*="ground & fighting"] {
+    background: var(--gradient-ground-fighting);
+}
+.progress-bar[class*="ground & fighting"]::-webkit-progress-value {
+    background-color: var(--clr-dark-brown);
+}
+.progress-bar[class*="ground & fighting"]::-moz-progress-bar {
+    background-color: var(--clr-dark-brown);
+}
+/* Water & Grass */
+.pokemon-type[class*="water & grass"] {
+    background: var(--gradient-water-grass);
+}
+.progress-bar[class*="water & grass"]::-webkit-progress-value {
+    background-color: var(--clr-green);
+}
+.progress-bar[class*="water & grass"]::-moz-progress-bar {
+    background-color: var(--clr-green);
+}
+/* Ghost & Dark */
+.pokemon-type[class*="ghost & dark"] {
+    background: var(--gradient-ghost-dark);
+}
+.progress-bar[class*="ghost & dark"]::-webkit-progress-value {
+    background-color: var(--clr-blk-khaki);
+}
+.progress-bar[class*="ghost & dark"]::-moz-progress-bar {
+    background-color: var(--clr-blk-khaki);
+}
+/* Poison & Dragon */
+.pokemon-type[class*="poison & dragon"] {
+    background: var(--gradient-poison-dragon);
+}
+.progress-bar[class*="poison & dragon"]::-webkit-progress-value {
+    background-color: var(--clr-dark-purple);
+}
+.progress-bar[class*="poison & dragon"]::-moz-progress-bar {
+    background-color: var(--clr-dark-purple);
+}
+/* Grass & Ground */
+.pokemon-type[class*="grass & ground"] {
+    background: var(--gradient-grass-ground);
+}
+.progress-bar[class*="grass & ground"]::-webkit-progress-value {
+    background-color: var(--clr-brown);
+}
+.progress-bar[class*="grass & ground"]::-moz-progress-bar {
+    background-color: var(--clr-brown);
+}
+/* Dark & Fire */
+.pokemon-type[class*="dark & fire"] {
+    background: var(--gradient-dark-fire);
+}
+.progress-bar[class*="dark & fire"]::-webkit-progress-value {
+    background-color: var(--clr-blood-orange);
+}
+.progress-bar[class*="dark & fire"]::-moz-progress-bar {
+    background-color: var(--clr-blood-orange);
+}
+/* Dark & Poison */
+.pokemon-type[class*="dark & poison"] {
+    background: var(--gradient-dark-poison);
+}
+.progress-bar[class*="dark & poison"]::-webkit-progress-value {
+    background-color: var(--clr-lilac);
+}
+.progress-bar[class*="dark & poison"]::-moz-progress-bar {
+    background-color: var(--clr-lilac);
+}
+/* Steel & Dragon */
+.pokemon-type[class*="steel & dragon"] {
+    background: var(--gradient-steel-dragon);
+}
+.progress-bar[class*="steel & dragon"]::-webkit-progress-value {
+    background-color: var(--clr-purple);
+}
+.progress-bar[class*="steel & dragon"]::-moz-progress-bar {
+    background-color: var(--clr-purple);
+}
+/* Normal & Fairy */
+.pokemon-type[class*="normal & fairy"] {
+    background: var(--gradient-normal-fairy);
+}
+.progress-bar[class*="normal & fairy"]::-webkit-progress-value {
+    background-color: var(--clr-dark-pink);
+}
+.progress-bar[class*="normal & fairy"]::-moz-progress-bar {
+    background-color: var(--clr-dark-pink);
+}
+/* Psychic & Fighting */
+.pokemon-type[class*="psychic & fighting"] {
+    background: var(--gradient-psychic-fighting);
+}
+.progress-bar[class*="psychic & fighting"]::-webkit-progress-value {
+    background-color: var(--clr-red);
+}
+.progress-bar[class*="psychic & fighting"]::-moz-progress-bar {
+    background-color: var(--clr-red);
+}
+/* Psychic & Fire */
+.pokemon-type[class*="psychic & fire"] {
+    background: var(--gradient-psychic-fire);
+}
+.progress-bar[class*="psychic & fire"]::-webkit-progress-value {
+    background-color: var(--clr-orange);
+}
+.progress-bar[class*="psychic & fire"]::-moz-progress-bar {
+    background-color: var(--clr-orange);
+}
+/* Fire & Dragon */
+.pokemon-type[class*="fire & dragon"] {
+    background: var(--gradient-fire-dragon);
+}
+.progress-bar[class*="fire & dragon"]::-webkit-progress-value {
+    background-color: var(--clr-lilac);
+}
+.progress-bar[class*="fire & dragon"]::-moz-progress-bar {
+    background-color: var(--clr-lilac);
+}
+/* Electric & Ground */
+.pokemon-type[class*="electric & ground"] {
+    background: var(--gradient-electric-ground);
+}
+.progress-bar[class*="electric & ground"]::-webkit-progress-value {
+    background-color: var(--clr-brown);
+}
+.progress-bar[class*="electric & ground"]::-moz-progress-bar {
+    background-color: var(--clr-brown);
+}
+/* Electric & Ghost */
+.pokemon-type[class*="electric & ghost"] {
+    background: var(--gradient-electric-ghost);
+}
+.progress-bar[class*="electric & ghost"]::-webkit-progress-value {
+    background-color: var(--clr-dark-lilac);
+}
+.progress-bar[class*="electric & ghost"]::-moz-progress-bar {
+    background-color: var(--clr-dark-lilac);
+}
+/* Ground & Electric */
+.pokemon-type[class*="ground & electric"] {
+    background: var(--gradient-ground-electric);
+}
+.progress-bar[class*="ground & electric"]::-webkit-progress-value {
+    background-color: var(--clr-burnt-yellow);
+}
+.progress-bar[class*="ground & electric"]::-moz-progress-bar {
+    background-color: var(--clr-brown);
+}
+/* Psychic & Grass */
+.pokemon-type[class*="psychic & grass"] {
+    background: var(--gradient-psychic-grass);
+}
+.progress-bar[class*="psychic & grass"]::-webkit-progress-value {
+    background-color: var(--clr-green);
+}
+.progress-bar[class*="psychic & grass"]::-moz-progress-bar {
+    background-color: var(--clr-green);
+}
+/* Psychic & Ghost */
+.pokemon-type[class*="psychic & ghost"] {
+    background: var(--gradient-psychic-ghost);
+}
+.progress-bar[class*="psychic & ghost"]::-webkit-progress-value {
+    background-color: var(--clr-dark-lilac);
+}
+.progress-bar[class*="psychic & ghost"]::-moz-progress-bar {
+    background-color: var(--clr-dark-lilac);
+}
+/* Rock & Grass */
+.pokemon-type[class*="rock & grass"] {
+    background: var(--gradient-rock-grass);
+}
+.progress-bar[class*="rock & grass"]::-webkit-progress-value {
+    background-color: var(--clr-green);
+}
+.progress-bar[class*="rock & grass"]::-moz-progress-bar {
+    background-color: var(--clr-green);
+}
+/* Dark & Ground */
+.pokemon-type[class*="dark & ground"] {
+    background: var(--gradient-dark-ground);
+}
+.progress-bar[class*="dark & ground"]::-webkit-progress-value {
+    background-color: var(--clr-wood-brown);
+}
+.progress-bar[class*="dark & ground"]::-moz-progress-bar {
+    background-color: var(--clr-wood-brown);
+}
+/* Water & Electric */
+.pokemon-type[class*="water & electric"] {
+    background: var(--gradient-water-electric);
+}
+.progress-bar[class*="water & electric"]::-webkit-progress-value {
+    background-color: var(--clr-burnt-yellow);
+}
+.progress-bar[class*="water & electric"]::-moz-progress-bar {
+    background-color: var(--clr-burnt-yellow);
+}
+/* Flying & Steel */
+.pokemon-type[class*="flying & steel"] {
+    background: var(--gradient-flying-steel);
+}
+.progress-bar[class*="flying & steel"]::-webkit-progress-value {
+    background-color: var(--clr-dark-blue);
+}
+.progress-bar[class*="fling & steel"]::-moz-progress-bar {
+    background-color: var(--clr-brown);
+}
 /* Dark Mode */
 @media screen and (prefers-color-scheme: dark) {
     body {
