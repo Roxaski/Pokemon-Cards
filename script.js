@@ -39,8 +39,8 @@ const displayRandomPokemon = (pokemon) => {
     const pokemonHTMLString = pokemon
         .map((details) => 
         `<li class="card pokemon-type type-${details.type}">
-            <img id="pokemon" src="${details.image}"/>
-            <img id="pokeball" src="./assets/pokeball.webp" alt="pokeball"/>
+            <img draggable="false" id="pokemon" src="${details.image}">
+            <img draggable="false" id="pokeball" src="./assets/pokeball.webp" alt="">
             <h2>${details.name}</h2>
             <h3><span>Pokédex Entry #${details.id}</span></h3>
 
@@ -71,7 +71,7 @@ const displayRandomPokemon = (pokemon) => {
                         ${details.ability}
                     </p>
 
-                    <p>
+                    <p id="moveset">
                         <i class="fa-solid fa-compass"></i>
                         <span class="stats-title"> Moves | </span> 
                         ${details.moves}
@@ -169,8 +169,8 @@ const displayPokemon = (pokemon) => {
     const pokemonHTMLString = pokemon
         .map((details) => 
            `<li class="card pokemon-type type-${details.type}">
-            <img id="pokemon" src="${details.image}"/>
-            <img id="pokeball" src="./assets/pokeball.webp" alt="pokeball"/>
+            <img draggable="false" id="pokemon" src="${details.image}">
+            <img draggable="false" id="pokeball" src="./assets/pokeball.webp" alt="">
             <h2>${details.name}</h2>
             <h3><span>Pokédex Entry #${details.id}</span></h3>
             
@@ -201,7 +201,7 @@ const displayPokemon = (pokemon) => {
                         ${details.ability}
                     </p>
 
-                    <p>
+                    <p id="moveset">
                         <i class="fa-solid fa-compass"></i>
                         <span class="stats-title"> Moves | </span> 
                         ${details.moves}

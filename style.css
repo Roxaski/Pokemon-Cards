@@ -466,7 +466,7 @@ header {
 }
 header img {
     position: fixed;
-    margin: 200px auto 0;
+    margin: 160px auto 0;
     width: 300px;
     height: auto;
 }
@@ -475,8 +475,9 @@ header img {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
-    margin: 20px auto;
+    margin: 30px auto;
     max-width: 95rem;
+    padding-bottom: 1.4rem;
 }
 .grid-container .left {
     margin-right: 5rem;
@@ -493,11 +494,15 @@ header img {
     color: var(--clr-grey);
     background: var(--clr-white);
     outline: none;
-    border: none;
     border-radius: 5px;
     box-shadow: 3px 3px 4px rgba(0,0,0,0.2);
     cursor: pointer;
+    border: solid 2px var(--clr-white);
     transition: 250ms ease;
+}
+.grid-container .left button:hover {
+    color: var(--clr-offWhite);
+    background: var(--clr-ruby-red);
 }
 /* Search Pokemon Cards */
 .grid-container .right input {
@@ -556,9 +561,9 @@ header img {
     height: auto;
     position: absolute;
     bottom: 79%;
-    left: 63%;
+    left: 65%;
     filter: opacity(35%);
-    transform: rotate(30deg);
+    transform: rotate(32deg);
     border: solid 5px var(--clr-white);
     border-radius: 50%;
     box-shadow: 3px 2px 7px rgba(0, 0, 0, .8);
@@ -608,7 +613,9 @@ header img {
     text-transform: capitalize;
     margin: 18px 0;
     line-height: 1.5;
-    width: 75%;
+}
+.card .info #moveset {
+    width: 90%;
 }
 .card .info .stats-title {
     font-weight: 300;
@@ -2587,6 +2594,35 @@ progress {
 }
 .progress-bar[class*="fling & steel"]::-moz-progress-bar {
     background-color: var(--clr-brown);
+}
+/* Media Query's */
+@media screen and (max-width: 1180px) {
+    header img {
+        position: relative;
+        margin: 50px auto 0;
+        width: 300px;
+        height: auto;
+    }
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 auto;
+    }
+    .grid-container .left,
+    .grid-container .right {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .grid-container .left button,
+    .grid-container .right input {
+        display: flex;
+        margin: 50px auto 0;
+    }
+    .card {
+        top: -1px;
+        border-radius: 0;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
 }
 /* Dark Mode */
 @media screen and (prefers-color-scheme: dark) {
