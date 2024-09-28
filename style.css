@@ -47,6 +47,406 @@
     --clr-pale-blue: #95b3d4;
     --clr-sky-blue: #3f76b2;
     --clr-ice-blue: #3da3a1;
+
+    --gradient-normal: linear-gradient(0deg, rgb(80, 80, 80) 55%, rgb(185, 185, 185) 100%);
+
+    --gradient-dragon: linear-gradient(0deg, rgba(99,102,173,1) 55%, rgb(65, 68, 143) 100%);
+
+    --gradient-fairy: linear-gradient(0deg, rgb(153, 55, 119) 55%, rgb(243, 96, 191) 100%);
+
+    --gradient-rock: linear-gradient(0deg, rgb(67, 61, 40) 55%, rgb(95, 87, 56) 100%);
+
+    --gradient-steel: linear-gradient(0deg, rgb(117, 117, 127) 55%, rgb(70, 70, 74) 100%);
+
+    --gradient-poison: linear-gradient(0deg, rgba(109,75,151,1) 55%, rgb(54, 31, 82) 100%);
+
+    --gradient-ghost: linear-gradient(0deg, rgba(107,71,112,1) 35%, rgb(62, 41, 65) 100%);
+
+    --gradient-ice: linear-gradient(0deg, rgb(61, 163, 161) 35%, rgb(106, 186, 183) 100%);
+
+    --gradient-ground: linear-gradient(0deg, rgb(110, 65, 31) 55%, rgb(161, 97, 48) 100%);
+
+    --gradient-grass: linear-gradient(0deg, rgb(68, 122, 51) 55%, rgb(25, 100, 2) 100%);
+
+    --gradient-bug: linear-gradient(0deg, rgb(87, 88, 33) 55%, rgb(148, 150, 44) 100%);
+
+    --gradient-flying: linear-gradient(0deg, rgb(63, 118, 178) 55%, rgb(161, 206, 254) 100%);
+
+    --gradient-fire: linear-gradient(0deg, rgb(142, 36, 15) 55%, rgb(255, 75, 39) 100%);
+
+    --gradient-water: linear-gradient(0deg, rgba(45,85,145,1) 55%, rgb(38, 117, 235) 100%);
+
+    --gradient-psychic: linear-gradient(0deg, rgba(215,95,130,1) 55%, rgb(188, 40, 82) 100%);
+
+    --gradient-electric: linear-gradient(0deg, rgb(177, 130, 3) 55%, rgb(250, 186, 12) 100%);
+
+    --gradient-dark: linear-gradient(0deg, rgb(40, 35, 34) 55%, rgb(78, 77, 77) 100%);
+
+    --gradient-fighting: linear-gradient(0deg, rgb(128, 11, 17) 55%, rgb(52, 10, 5) 100%);
+
+    --gradient-dark-fighting: linear-gradient(20deg, rgb(40, 35, 34) 70%, rgb(128, 11, 17) 10%);
+
+    --gradient-dark-ice: linear-gradient(20deg, rgb(40, 35, 34) 70%, rgb(61, 163, 161) 10%);
+
+    --gradient-dark-flying: linear-gradient(20deg, rgb(40, 35, 34) 70%, rgb(63, 118, 178) 10%);
+
+    --gradient-ghost-fire: linear-gradient(20deg, rgba(107,71,112,1) 70%, rgb(142, 36, 15) 10%);
+
+    --gradient-fire-bug: linear-gradient(20deg, rgb(142, 36, 15) 70%, rgb(87, 88, 33) 10%);
+
+    --gradient-ghost-poison: linear-gradient(20deg, rgba(107,71,112,1) 70%, rgba(109,75,151,1) 10%);
+
+    --gradient-dragon-ice: linear-gradient(20deg, rgba(99,102,173,1) 70%, rgb(61, 163, 161) 10%);
+
+    --gradient-fire-poison: linear-gradient(20deg, rgb(190, 59, 32) 70%, rgba(109,75,151,1) 10%);
+
+    --gradient-ice-psychic: linear-gradient(20deg, rgb(57, 135, 134) 70%, rgba(215,95,130,1) 10%);
+
+    --gradient-bug-electric: linear-gradient(20deg, rgb(87, 88, 33) 70%, rgb(177, 130, 3) 10%);
+
+    --gradient-bug-rock: linear-gradient(20deg, rgb(87, 88, 33) 70%, rgb(67, 61, 40) 10%);
+
+    --gradient-ground-rock: linear-gradient(20deg, rgb(110, 65, 31) 70%, rgb(67, 61, 40) 10%);
+
+    --gradient-ground-electric: linear-gradient(20deg, rgb(110, 65, 31) 70%, rgb(177, 130, 3) 10%);
+
+    --gradient-bug-grass: linear-gradient(20deg, rgb(87, 88, 33) 70%, rgb(68, 122, 51) 10%);
+
+    --gradient-grass-normal: linear-gradient(20deg, rgb(68, 122, 51) 70%, rgb(80, 80, 80) 55% 10%);
+
+    --gradient-electric-normal: linear-gradient(20deg, rgb(177, 130, 3) 70%, rgb(80, 80, 80) 55% 10%);
+
+    --gradient-bug-fighting: linear-gradient(20deg, rgb(87, 88, 33) 70%, rgb(128, 11, 17) 10%);
+
+    --gradient-rock-fighting: linear-gradient(20deg, rgb(67, 61, 40) 70%, rgb(128, 11, 17) 10%);
+
+    --gradient-rock-flying: linear-gradient(20deg, rgb(67, 61, 40) 70%, rgb(63, 118, 178) 10%);
+
+    --gradient-bug-poison: linear-gradient(20deg, rgb(87, 88, 33) 70%, rgba(109,75,151,1) 10%);
+
+    --gradient-dragon-flying: linear-gradient(20deg, rgba(99,102,173,1) 70%, rgb(63, 118, 178) 10%);
+
+    --gradient-bug-psychic: linear-gradient(20deg, rgb(87, 88, 33) 70%, rgba(215,95,130,1) 10%);
+
+    --gradient-electric-flying: linear-gradient(20deg, rgb(177, 130, 3) 70%, rgb(63, 118, 178) 10%);
+
+    --gradient-water-ghost: linear-gradient(20deg, rgba(45,85,145,1) 70%, rgba(107,71,112,1) 10%);
+
+    --gradient-steel-psychic: linear-gradient(20deg, rgb(117, 117, 127) 70%, rgba(215,95,030,1) 10%);
+
+    --gradient-normal-flying: linear-gradient(20deg, rgb(80, 80, 80) 70%, rgb(63, 118, 178) 10%);
+
+    --gradient-flying-dark: linear-gradient(20deg, rgb(63, 118, 178) 70%, rgb(40, 35, 34) 10%);
+
+    --gradient-normal-psychic: linear-gradient(20deg, rgb(80, 80, 80) 70%, rgba(215,95,130,1) 10%);
+
+    --gradient-rock-water: linear-gradient(20deg, rgb(67, 61, 40) 70%, rgb(45, 85, 145) 10%);
+
+    --gradient-dragon-normal: linear-gradient(20deg, rgba(99,102,173,1) 70%, rgb(80, 80, 80) 10%);
+
+    --gradient-dark-dragon: linear-gradient(20deg, rgb(40, 35, 34) 70%, rgba(99,102,173,1) 10%);
+
+    --gradient-fire-fighting: linear-gradient(20deg, rgb(142, 36, 15) 70%, rgb(128, 11, 17) 10%);
+
+    --gradient-fire-rock: linear-gradient(20deg, rgb(142, 36, 15) 70%, rgb(67, 61, 40) 10%);
+
+    --gradient-dark-psychic: linear-gradient(20deg, rgb(40, 35, 34) 70%, rgba(215,95,130,1) 10%);
+
+    --gradient-grass-psychic: linear-gradient(20deg, rgb(68, 122, 51) 70%, rgba(215,95,130,1) 10%);
+
+    --gradient-grass-flying: linear-gradient(20deg, rgb(68, 122, 51) 70%, rgb(149, 179, 212) 10%);
+
+    --gradient-ground-dragon: linear-gradient(20deg, rgb(110, 65, 31) 70%, rgba(99,102,173,1) 10%);
+
+    --gradient-ground-dark: linear-gradient(20deg, rgb(110, 65, 31) 70%, rgb(40, 35, 34) 10%);
+
+    --gradient-grass-poison: linear-gradient(20deg, rgb(68, 122, 51) 70%, rgba(109,75,151,1) 10%);
+
+    --gradient-grass-dark: linear-gradient(20deg, rgb(68, 122, 51) 70%, rgb(40, 35, 34) 10%);
+
+    --gradient-poison-ground: linear-gradient(20deg, rgba(109,75,151,1) 70%, rgb(110, 65, 31) 10%);
+
+    --gradient-ice-ground: linear-gradient(20deg, rgb(61, 163, 161) 70%, rgb(110, 65, 31) 10%);
+
+    --gradient-poison-fire: linear-gradient(20deg, rgba(109,75,151,1) 70%, rgb(190, 59, 32) 10%);
+
+    --gradient-poison-normal: linear-gradient(20deg, rgba(109,75,151,1) 70%, rgb(80, 80, 80) 10%);
+
+    --gradient-fighting-electric: linear-gradient(20deg, rgb(128, 11, 17) 70%, rgb(177, 130, 3) 10%);
+
+    --gradient-fighting-ghost: linear-gradient(20deg, rgb(128, 11, 17) 70%, rgba(107,71,112,1) 10%);
+
+    --gradient-fighting-steel: linear-gradient(20deg, rgb(128, 11, 17) 70%, rgb(117, 117, 127) 10%);
+
+    --gradient-fairy-steel: linear-gradient(20deg, rgb(153, 55, 119) 70%, rgb(117, 117, 127) 10%);
+
+    --gradient-steel-fairy: linear-gradient(20deg, rgb(117, 117, 127) 70%, rgb(153, 55, 119) 10%);
+
+    --gradient-steel-flying: linear-gradient(20deg, rgb(117, 117, 127) 70%, rgb(63, 118, 178) 10%);
+
+    --gradient-steel-ghost: linear-gradient(20deg, rgb(117, 117, 127) 70%, rgba(107,71,112,1) 10%);
+
+    --gradient-ground-rock: linear-gradient(20deg, rgb(110, 65, 31) 70%, rgb(67, 61, 40) 10%);
+
+    --gradient-ground-psychic: linear-gradient(20deg, rgb(110, 65, 31) 70%, rgba(215,95,130,1) 10%);
+
+    --gradient-rock-fairy: linear-gradient(20deg, rgba(95, 87, 56) 70%, rgb(153, 55, 119) 10%);
+
+    --gradient-steel-rock: linear-gradient(20deg, rgb(117, 117, 127) 70%, rgb(67, 61, 40) 10%);
+
+    --gradient-bug-flying: linear-gradient(20deg, rgb(87, 88, 33) 70%, rgb(63, 118, 178) 10%);
+
+    --gradient-poison-bug: linear-gradient(20deg, rgba(109,75,151,1) 70%, rgb(87, 88, 33) 10%);
+
+    --gradient-bug-steel: linear-gradient(20deg, rgb(87, 88, 33) 70%, rgb(117, 117, 127) 10%);
+
+    --gradient-bug-grass: linear-gradient(20deg, rgb(87, 88, 33) 70%, rgb(68, 122, 51) 10%);
+
+    --gradient-water-ice: linear-gradient(20deg, rgba(45,85,145,1) 70%, rgb(61, 163, 161) 10%);
+
+    --gradient-water-psychic: linear-gradient(20deg, rgba(45,85,145,1) 70%, rgba(215,95,130,1) 10%);
+
+    --gradient-psychic-flying: linear-gradient(20deg, rgba(215,95,130,1) 70%, rgb(63, 118, 178) 10%);
+
+    --gradient-psychic-ghost: linear-gradient(20deg, rgba(215,95,130,1) 70%, rgba(107,71,112,1) 10%);
+
+    --gradient-psychic-fairy: linear-gradient(20deg, rgba(215,95,130,1) 70%, rgb(153, 55, 119) 10%);
+
+    --gradient-ghost-fairy: linear-gradient(20deg, rgba(107,71,112,1) 70%, rgb(153, 55, 119) 10%);
+
+    --gradient-rock-bug: linear-gradient(20deg, rgb(67, 61, 40) 70%, rgb(87, 88, 33) 10%);
+
+    --gradient-poison-flying: linear-gradient(20deg, rgba(109,75,151,1) 70%, rgb(63, 118, 178) 10%);
+
+    --gradient-water-poison: linear-gradient(20deg, rgb(45, 85, 145) 70%, rgba(109,75,151,1) 10%);
+
+    --gradient-poison-water: linear-gradient(20deg, rgba(109,75,151,1) 70%, rgb(45, 85, 145) 10%);
+
+    --gradient-water-ground: linear-gradient(20deg, rgb(45, 85, 145) 70%, rgb(110, 65, 31) 10%);
+
+    --gradient-poison-dark: linear-gradient(20deg, rgba(109,75,151,1) 70%, rgb(40, 35, 34) 10%);
+
+    --gradient-water-dark: linear-gradient(20deg, rgb(45, 85, 145) 70%, rgb(40, 35, 34) 10%);
+
+    --gradient-dark-grass: linear-gradient(20deg, rgb(40, 35, 34) 70%, rgb(68, 122, 51) 10%);
+
+    --gradient-water-rock: linear-gradient(20deg, rgb(45, 85, 145) 70%, rgba(95, 87, 56) 10%);
+
+    --gradient-water-flying: linear-gradient(20deg, rgb(45, 85, 145) 70%, rgb(63, 118, 178) 10%);
+
+    --gradient-water-dragon: linear-gradient(20deg, rgb(45, 85, 145) 70%, rgba(99,102,173,1) 10%);
+
+    --gradient-flying-water: linear-gradient(20deg, rgb(63, 118, 178) 70%, rgb(45, 85, 145) 10%);
+
+    --gradient-electric-steel: linear-gradient(20deg, rgb(177, 130, 3) 70%, rgb(117, 117, 127) 10%);
+
+    --gradient-ground-flying: linear-gradient(20deg, rgb(110, 65, 31) 70%, rgb(63, 118, 178) 10%);
+
+    --gradient-ice-water: linear-gradient(20deg, rgb(61, 163, 161) 70%, rgb(45, 85, 145) 10%);
+
+    --gradient-rock-psychic: linear-gradient(20deg, rgba(95, 87, 56) 70%, rgba(215,95,130,1) 10%);
+
+    --gradient-grass-dragon: linear-gradient(20deg, rgb(68, 122, 51) 70%, rgba(99,102,173,1) 10%);
+
+    --gradient-normal-fighting: linear-gradient(20deg, rgb(80, 80, 80) 70%, rgb(128, 11, 17) 10%);
+
+    --gradient-grass-ghost: linear-gradient(20deg, rgb(68, 122, 51) 70%, rgba(107,71,112,1) 10%);
+
+    --gradient-water-bug: linear-gradient(20deg, rgb(45, 85, 145) 70%, rgb(87, 88, 33) 10%);
+
+    --gradient-dark-normal: linear-gradient(20deg, rgb(40, 35, 34) 70%, rgb(80, 80, 80) 10%);
+
+    --gradient-dragon-ghost: linear-gradient(20deg, rgba(99,102,173,1) 70%, rgba(107,71,112,1) 10%);
+
+    --gradient-rock-poison: linear-gradient(20deg, rgba(95, 87, 56) 70%, rgba(109,75,151,1) 10%);
+
+    --gradient-ground-steel: linear-gradient(20deg, rgb(110, 65, 31) 70%, rgb(117, 117, 127) 10%);
+
+    --gradient-fire-flying: linear-gradient(20deg, rgb(190, 59, 32) 70%, rgb(63, 118, 178) 10%);
+
+    --gradient-bug-dark: linear-gradient(20deg, rgb(87, 88, 33) 70%, rgb(40, 35, 34) 10%);
+
+    --gradient-fire-ground: linear-gradient(20deg, rgb(190, 59, 32) 70%, rgb(110, 65, 31) 10%);
+
+    --gradient-water-fairy: linear-gradient(20deg, rgb(45, 85, 145) 70%, rgb(153, 55, 119) 10%);
+
+    --gradient-rock-ice: linear-gradient(20deg, rgba(95, 87, 56) 70%, rgb(61, 163, 161) 10%);
+
+    --gradient-rock-ground: linear-gradient(20deg, rgba(95, 87, 56) 70%, rgb(110, 65, 31) 10%);
+
+    --gradient-fighting-flying: linear-gradient(20deg, rgb(128, 11, 17) 70%, rgb(63, 118, 178) 10%);
+
+    --gradient-ghost-ground: linear-gradient(20deg, rgba(107,71,112,1) 70%, rgb(110, 65, 31) 10%);
+
+    --gradient-fire-ghost: linear-gradient(20deg, rgb(190, 59, 32) 70%, rgba(107,71,112,1) 10%);
+
+    --gradient-normal-grass: linear-gradient(20deg, rgb(80, 80, 80) 70%, rgb(68, 122, 51) 10%);
+
+    --gradient-rock-dragon: linear-gradient(20deg, rgba(95, 87, 56) 70%, rgba(99,102,173,1) 10%);
+
+    --gradient-fairy-flying: linear-gradient(20deg, rgb(153, 55, 119) 70%, rgb(63, 118, 178) 10%);
+
+    --gradient-fire-psychic: linear-gradient(20deg, rgb(190, 59, 32) 70% 70%, rgba(215,95,130,1) 10%);
+
+    --gradient-bug-fire: linear-gradient(20deg, rgb(87, 88, 33) 70%, rgb(190, 59, 32) 10%);
+
+    --gradient-normal-ground: linear-gradient(20deg, rgb(80, 80, 80) 70%, rgb(110, 65, 31) 10%);
+
+    --gradient-ground-normal: linear-gradient(20deg, rgb(110, 65, 31) 70%, rgb(80, 80, 80) 10%);
+
+    --gradient-flying-dragon: linear-gradient(20deg, rgb(63, 118, 178) 70%, rgba(99,102,173,1) 10%);
+
+    --gradient-poison-fighting: linear-gradient(20deg, rgba(109,75,151,1) 70%, rgb(128, 11, 17) 10%); 
+
+    --gradient-bug-water: linear-gradient(20deg, rgb(87, 88, 33) 70%, rgb(45, 85, 145) 10%); 
+
+    --gradient-steel-ground: linear-gradient(20deg, rgb(117, 117, 127) 70%, rgb(110, 65, 31) 10%);
+
+    --gradient-electric-fighting: linear-gradient(20deg, rgb(177, 130, 3) 70%, rgb(128, 11, 17) 10%);
+
+    --gradient-dark-steel: linear-gradient(20deg, rgb(40, 35, 34) 70%, rgb(117, 117, 127) 10%);
+
+    --gradient-electric-dark: linear-gradient(20deg, rgb(177, 130, 3) 70%, rgb(80, 80, 80) 10%);
+
+    --gradient-ghost-grass: linear-gradient(20deg, rgba(107,71,112,1) 70%, rgb(68, 122, 51) 10%);
+
+    --gradient-psychic-normal: linear-gradient(20deg, rgba(215,95,130,1) 70%, rgb(80, 80, 80) 10%);
+
+    --gradient-fire-steel: linear-gradient(20deg, rgb(190, 59, 32) 70%, rgb(117, 117, 127) 10%);
+
+    --gradient-grass-fire: linear-gradient(20deg, rgb(68, 122, 51) 70%, rgb(190, 59, 32) 10%);
+
+    --gradient-fighting-poison: linear-gradient(20deg, rgb(177, 61, 48) 70%, rgba(109,75,151,1) 10%);
+
+    --gradient-dragon-ground: linear-gradient(20deg, rgba(99,102,173,1) 70%, rgb(110, 65, 31) 10%);
+
+    --gradient-dark-fairy: linear-gradient(20deg, rgb(40, 35, 34) 70%, rgb(153, 55, 119) 10%);
+
+    --gradient-ground-ghost: linear-gradient(20deg, rgb(110, 65, 31) 70%, rgba(107,71,112,1) 10%);
+
+    --gradient-ground-grass: linear-gradient(20deg, rgb(110, 65, 31) 70%, rgb(68, 122, 51) 10%);
+
+    --gradient-rock-grass: linear-gradient(20deg, rgba(95, 87, 56) 70%, rgb(68, 122, 51) 10%);
+
+    --gradient-steel-poison: linear-gradient(20deg, rgb(117, 117, 127) 70%, rgba(109,75,151,1) 10%);
+
+    --gradient-dark-ghost: linear-gradient(20deg, rgb(40, 35, 34) 70%, rgba(107,71,112,1) 10%);
+
+    --gradient-rock-electric: linear-gradient(20deg, rgba(95, 87, 56) 70%, rgb(177, 130, 3) 10%);
+
+    --gradient-water-fighting: linear-gradient(20deg, rgb(45, 85, 145) 70%, rgb(177, 61, 48) 10%);
+
+    --gradient-dark-ground: linear-gradient(20deg, rgb(40, 35, 34) 70%, rgb(110, 65, 31) 10%);
+
+    --gradient-ice-bug: linear-gradient(20deg, rgb(61, 163, 161) 70%, rgb(87, 88, 33) 10%);
+
+    --gradient-dragon-fighting: linear-gradient(20deg, rgba(99,102,173,1) 70%, rgb(128, 11, 17) 10%);
+
+    --gradient-bug-fairy: linear-gradient(20deg, rgb(87, 88, 33) 70%, rgb(153, 55, 119) 10%);
+
+    --gradient-electric-poison: linear-gradient(20deg, rgb(177, 130, 3) 70%, rgba(109,75,151,1) 10%);
+
+    --gradient-electric-ice: linear-gradient(20deg, rgb(177, 130, 3) 70%, rgba(119,199,198,1) 10%);
+
+    --gradient-ground-fighting: linear-gradient(20deg, rgb(110, 65, 31) 70%, rgb(128, 11, 17) 10%);
+
+    --gradient-water-grass: linear-gradient(20deg, rgb(45, 85, 145) 70%, rgb(68, 122, 51) 10%);
+
+    --gradient-ghost-dark: linear-gradient(20deg, rgba(107,71,112,1) 70%, rgb(40, 35, 34) 10%); 
+
+    --gradient-poison-dragon: linear-gradient(20deg, rgba(109,75,151,1) 70%, rgba(99,102,173,1) 10%);
+
+    --gradient-rock-steel: linear-gradient(20deg, rgba(95, 87, 56) 70%, rgb(117, 117, 127) 10%); 
+
+    --gradient-normal-fairy: linear-gradient(20deg, rgb(80, 80, 80) 70%, rgb(153, 55, 119) 10%); 
+
+    --gradient-ghost-dragon: linear-gradient(20deg, rgba(107,71,112,1) 70%, rgba(99,102,173,1) 10%); 
+
+    --gradient-electric-dragon: linear-gradient(20deg, rgb(177, 130, 3) 70%, rgba(99,102,173,1) 10%); 
+
+    --gradient-grass-ground: linear-gradient(20deg, rgb(68, 122, 51) 70%, rgb(110, 65, 31) 10%); 
+
+    --gradient-bug-ground: linear-gradient(20deg, rgb(87, 88, 33) 70%, rgb(110, 65, 31) 10%); 
+
+    --gradient-dark-fire: linear-gradient(20deg, rgb(40, 35, 34) 70%, rgb(190, 59, 32) 10%); 
+
+    --gradient-steel-dragon: linear-gradient(20deg, rgb(117, 117, 127) 70%, rgba(99,102,173,1) 10%);
+
+    --gradient-psychic-fighting: linear-gradient(20deg, rgba(215,95,130,1) 70%, rgb(128, 11, 17) 10%);
+
+    --gradient-electric-ground: linear-gradient(20deg, rgb(177, 130, 3) 70%, rgb(110, 65, 31) 10%); 
+
+    --gradient-dark-poison: linear-gradient(20deg, rgb(40, 35, 34) 70%, rgba(109,75,151,1) 10%); 
+
+    --gradient-fighting-dark: linear-gradient(20deg, rgb(128, 11, 17) 70%, rgb(40, 35, 34) 10%); 
+
+    --gradient-psychic-grass: linear-gradient(20deg, rgba(215,95,130,1) 70%, rgb(68, 122, 51) 10%); 
+
+    --gradient-grass-fairy: linear-gradient(20deg, rgb(68, 122, 51) 70%, rgb(153, 55, 119) 10%); 
+
+    --gradient-flying-fighting: linear-gradient(20deg, rgb(63, 118, 178) 70%, rgb(128, 11, 17) 10%); 
+
+    --gradient-ice-flying: linear-gradient(20deg, rgb(61, 163, 161) 70%, rgb(63, 118, 178) 10%); 
+
+    --gradient-ice-ghost: linear-gradient(20deg, rgb(61, 163, 161) 70%, rgba(107,71,112,1) 10%); 
+
+    --gradient-fairy-psychic: linear-gradient(20deg, rgb(153, 55, 119) 70%, rgba(215,95,130,1) 10%); 
+
+    --gradient-grass-fighting: linear-gradient(20deg, rgb(68, 122, 51) 70%, rgb(128, 11, 17) 10%); 
+
+    --gradient-psychic-steel: linear-gradient(20deg, rgba(215,95,130,1) 70%, rgb(117, 117, 127) 10%); 
+
+    --gradient-psychic-fire: linear-gradient(20deg, rgba(215,95,130,1) 70%, rgb(190, 59, 32) 10%); 
+
+    --gradient-rock-grass: linear-gradient(20deg, rgba(95, 87, 56) 70%, rgb(68, 122, 51) 10%); 
+
+    --gradient-fire-dragon: linear-gradient(20deg, rgb(190, 59, 32) 70%, rgba(99,102,173,1) 10%); 
+
+    --gradient-dragon-fire: linear-gradient(20deg, rgba(99,102,173,1) 70%, rgb(190, 59, 32) 10%); 
+
+    --gradient-dark-ground: linear-gradient(20deg, rgb(40, 35, 34) 70%, rgb(110, 65, 31) 10%); 
+
+    --gradient-fighting-psychic: linear-gradient(20deg, rgb(128, 11, 17) 70%, rgba(215,95,130,1) 10%); 
+
+    --gradient-water-electric: linear-gradient(20deg, rgb(45, 85, 145) 70%, rgb(177, 130, 3) 100); 
+
+    --gradient-grass-steel: linear-gradient(20deg, rgb(68, 122, 51) 70%, rgb(117, 117, 127) 10%); 
+
+    --gradient-dragon-psychic: linear-gradient(20deg, rgba(99,102,173,1) 70%, rgba(215,95,130,1) 10%); 
+
+    --gradient-steel-psychic: linear-gradient(20deg, rgb(117, 117, 127) 70%, rgba(215,95,130,1) 10%); 
+
+    --gradient-water-electric: linear-gradient(20deg, rgb(45, 85, 145) 70%, rgb(177, 130, 3) 10%); 
+
+    --gradient-normal-dragon: linear-gradient(20deg, rgb(80, 80, 80) 70%, rgba(99,102,173,1) 10%); 
+
+    --gradient-flying-steel: linear-gradient(20deg, rgb(63, 118, 178) 70%, rgb(117, 117, 127) 10%); 
+
+    --gradient-rock-fire: linear-gradient(20deg, rgba(95, 87, 56) 70%, rgb(190, 59, 32) 10%); 
+
+    --gradient-rock-dark: linear-gradient(20deg, rgba(95, 87, 56) 70%, rgb(40, 35, 34) 10%);
+
+    --gradient-bug-flying: linear-gradient(20deg, rgb(87, 88, 33) 70%, rgb(63, 118, 178) 10%);
+
+    --gradient-bug-ghost: linear-gradient(20deg, rgb(87, 88, 33) 70%, rgba(107,71,112,1) 10%);
+
+    --gradient-poison-psychic: linear-gradient(20deg, rgba(109,75,151,1) 70%, rgba(215,95,130,1) 10%);
+
+    --gradient-poison-fairy: linear-gradient(20deg, rgba(109,75,151,1) 70%, rgb(153, 55, 119) 10%);
+
+    --gradient-fire-normal: linear-gradient(20deg, rgb(190, 59, 32) 70%, rgb(80, 80, 80) 10%);
+
+    --gradient-electric-ghost: linear-gradient(20deg, rgb(177, 130, 3) 70%, rgba(107,71,112,1) 10%);
+
+    --gradient-fire-water: linear-gradient(20deg, rgb(190, 59, 32) 70%, rgb(45, 85, 145) 10%);
+
+    --gradient-dragon-dark: linear-gradient(20deg, rgba(99,102,173,1) 70%, rgb(40, 35, 34) 10%);
+
+    --gradient-grass-ice: linear-gradient(20deg, rgb(68, 122, 51) 70%, rgb(61, 163, 161) 10%);
+
+    --gradient-fighting-ice: linear-gradient(20deg, rgb(128, 11, 17) 70%, rgb(61, 163, 161) 10%);
+
+    --gradient-electric-dark: linear-gradient(20deg, rgb(177, 130, 3) 70%, rgb(40, 35, 34) 10%);
 }
 body {
     width: 100%;
