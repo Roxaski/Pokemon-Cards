@@ -450,7 +450,7 @@
 }
 body {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     font-family: 'Poppins', sans-serif;
     background: url(./assets/bg.webp);
     background-repeat: no-repeat;
@@ -476,15 +476,8 @@ header img {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
-    padding-bottom: 2.5rem;
-}
-.grid-container img {
-    display: block;
-    width: 175px;
-    height: auto;
-    margin: 150px auto;
-    color: var(--clr-offWhite);
-    text-transform: capitalize;
+    margin: 20px auto;
+    max-width: 95rem;
 }
 /* Random Pokemon Button */
 .grid-container .left button {
@@ -493,7 +486,6 @@ header img {
     text-transform: capitalize;
     letter-spacing: .25px;
     color: var(--clr-grey);
-    margin: 6px auto;
     background: var(--clr-white);
     outline: none;
     border: none;
@@ -531,12 +523,12 @@ header img {
 /* Pokemon Cards */
 .card {
     position: relative;
-    top: 1rem;
+    top: .75rem;
     list-style: none;
     font-weight: 300;
     padding: 1.4rem;
     width: 300px;
-    height: 490px;
+    height: 480px;
     border-radius: 10px;
     color: var(--clr-white);
     box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
@@ -559,10 +551,10 @@ header img {
     width: 132px;
     height: auto;
     position: absolute;
-    bottom: 50%;
+    bottom: 79%;
     left: 62%;
     filter: opacity(35%);
-    transform: rotate(32deg);
+    transform: rotate(27deg);
     border: solid 5px var(--clr-white);
     border-radius: 50%;
     box-shadow: 3px 2px 7px rgba(0, 0, 0, .8);
@@ -610,7 +602,7 @@ header img {
 .card .info p {
     font-weight: 200;
     text-transform: capitalize;
-    margin: 20px auto;
+    margin: 18px auto;
 }
 .card .info .stats-title {
     font-weight: 300;
@@ -639,7 +631,7 @@ header img {
 }
 progress {
     display: flex;
-    width: 92%;
+    width: 85%;
     height: 8px;
     margin: 10px 0;
     border-radius: 5px;
