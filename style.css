@@ -490,6 +490,7 @@ header img {
     padding: .5rem;
     width: 300px;
     text-transform: capitalize;
+    text-align: left;
     letter-spacing: .25px;
     color: var(--clr-grey);
     background: var(--clr-white);
@@ -2600,8 +2601,7 @@ progress {
     header img {
         position: relative;
         margin: 50px auto 0;
-        width: 300px;
-        height: auto;
+        width: 500px;
     }
     .grid-container {
         grid-template-columns: repeat(1, 1fr);
@@ -2614,7 +2614,7 @@ progress {
     }
     .grid-container .left button,
     .grid-container .right input {
-        display: flex;
+        display: block;
         margin: 50px auto 0;
     }
     .card {
@@ -2622,6 +2622,15 @@ progress {
         border-radius: 0;
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
+    }
+    .grid-container .left button:hover {
+        color: var(--clr-grey);
+        background: var(--clr-white);
+    }
+}
+@media screen and (max-width: 650px) {
+    header img {
+        width: 400px;
     }
 }
 /* Dark Mode */
