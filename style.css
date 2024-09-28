@@ -29,7 +29,6 @@
     --clr-dark-pink: #a42765;
     --clr-fuschia: #993777;
     --clr-red: #8e240f;
-    --clr-poke-red: #ab0102;
     --clr-dark-red: #540303;
     --clr-ruby-red: #970202;
     --clr-magenta: #751414;
@@ -479,6 +478,12 @@ header img {
     margin: 20px auto;
     max-width: 95rem;
 }
+.grid-container .left {
+    margin-right: 5rem;
+}
+.grid-container .right {
+    margin-left: 5rem;
+}
 /* Random Pokemon Button */
 .grid-container .left button {
     padding: .5rem;
@@ -498,7 +503,6 @@ header img {
 .grid-container .right input {
     padding: .5rem;
     width: 300px;
-    text-transform: capitalize;
     letter-spacing: .25px;
     background: var(--clr-white);
     outline: none;
@@ -548,13 +552,13 @@ header img {
 }
 .card #pokeball {
     display: block;
-    width: 132px;
+    width: 125px;
     height: auto;
     position: absolute;
     bottom: 79%;
-    left: 62%;
+    left: 63%;
     filter: opacity(35%);
-    transform: rotate(27deg);
+    transform: rotate(30deg);
     border: solid 5px var(--clr-white);
     border-radius: 50%;
     box-shadow: 3px 2px 7px rgba(0, 0, 0, .8);
@@ -602,7 +606,9 @@ header img {
 .card .info p {
     font-weight: 200;
     text-transform: capitalize;
-    margin: 18px auto;
+    margin: 18px 0;
+    line-height: 1.5;
+    width: 75%;
 }
 .card .info .stats-title {
     font-weight: 300;
