@@ -580,13 +580,12 @@ header img {
     letter-spacing: .25px;
 }
 .card h3 {
-    position: relative;
-    top: .35rem;
-    font-size: .95rem;
+    font-size: 1.025rem;
     font-weight: 300;
+    line-height: 2;
     letter-spacing: .25px;
     width: 100%;
-    padding-bottom: 1.5rem;
+    padding-bottom: 1rem;
     border-bottom: 1.5px var(--clr-white) solid;
 }
 /* Pokemon Cards - Info */
@@ -611,8 +610,7 @@ header img {
 .card .info p {
     font-weight: 200;
     text-transform: capitalize;
-    line-height: 2;
-    margin: 10px auto;
+    margin: 20px auto;
 }
 .card .info .stats-title {
     font-weight: 300;
