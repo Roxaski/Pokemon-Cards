@@ -495,7 +495,6 @@ header img {
     color: var(--clr-grey);
     background: var(--clr-white);
     outline: none;
-    border-radius: 5px;
     box-shadow: 3px 3px 4px rgba(0,0,0,0.2);
     cursor: pointer;
     border: solid 2px var(--clr-white);
@@ -513,7 +512,6 @@ header img {
     background: var(--clr-white);
     outline: none;
     border: 1.5px solid var(--clr-white);
-    border-radius: 5px;
     box-shadow: 3px 3px 4px rgba(0,0,0,0.2);
 }
 .grid-container .right input::placeholder {
@@ -533,13 +531,11 @@ header img {
 /* Pokemon Cards */
 .card {
     position: relative;
-    top: .75rem;
     list-style: none;
     font-weight: 300;
     padding: 1.4rem;
     width: 300px;
     height: 480px;
-    border-radius: 10px;
     color: var(--clr-white);
     box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
     overflow: hidden;
@@ -2609,20 +2605,18 @@ progress {
     .grid-container .left button,
     .grid-container .right input {
         display: block;
-        margin: 50px auto 0;
-    }
-    .card {
-        top: -1px;
-        border-radius: 0;
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
+        margin: 20px auto 0;
     }
     .grid-container .left button:hover {
         color: var(--clr-grey);
         background: var(--clr-white);
     }
 }
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 865px) {
+    header img {
+        width: 300px;
+        margin: 10px auto 0;
+    }
     .grid-container {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -2631,10 +2625,33 @@ progress {
         margin-left: 0;
         margin-right: 0;
     }
+    .grid-container .left button,
+    .grid-container .right input {
+        margin: 15px auto 0;
+    }
 }
 @media screen and (max-width: 650px) {
     header img {
-        width: 400px;
+        width: 300px;
+        margin: 10px auto 0;
+    }
+    .grid-container .left button,
+    .grid-container .right input {
+        margin: 20px auto 0;
+    }
+}
+@media screen and (max-width: 430px) {
+    header img {
+        width: 75%;
+    }
+}
+@media screen and (max-width: 340px) {
+    .grid-container .left button,
+    .grid-container .right input {
+        width: 250px;
+    }
+    .card {
+        width: 250px;
     }
 }
 /* Dark Mode */
