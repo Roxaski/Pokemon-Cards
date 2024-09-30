@@ -2654,6 +2654,16 @@ progress {
         width: 250px;
     }
 }
+@media screen and (max-width: 1200px) and (orientation: landscape) {
+    header img {
+        width: 350px;
+        margin: 10px auto;
+    }
+    .grid-container .left button,
+    .grid-container .right input {
+        margin: 45px auto 0;
+    }
+}
 /* Dark Mode */
 @media screen and (prefers-color-scheme: dark) {
     body {
