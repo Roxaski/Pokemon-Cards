@@ -19,3 +19,6 @@ Check it out, and let me know what you think!
 [Project Inspiration](https://www.youtube.com/watch?v=T-VQUKeSU1w&t=1s)
 
 <h1>Copyright</h1>
+
+This project is not affiliated or endorsed by Nintendo, The Pokémon Company or any of it's affiliates.
+All copyright and trademarks belong to their respective rights holders.
