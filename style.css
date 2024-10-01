@@ -183,6 +183,8 @@
 
     --gradient-steel-fairy: linear-gradient(20deg, rgb(117, 117, 127) 70%, rgb(153, 55, 119) 10%);
 
+    --gradient-steel-fighting: linear-gradient(20deg, rgb(117, 117, 127) 70%, rgb(128, 11, 17) 10%);
+
     --gradient-steel-flying: linear-gradient(20deg, rgb(117, 117, 127) 70%, rgb(63, 118, 178) 10%);
 
     --gradient-steel-ghost: linear-gradient(20deg, rgb(117, 117, 127) 70%, rgba(107,71,112,1) 10%);
@@ -418,6 +420,8 @@
     --gradient-steel-psychic: linear-gradient(20deg, rgb(117, 117, 127) 70%, rgba(215,95,130,1) 10%); 
 
     --gradient-water-electric: linear-gradient(20deg, rgb(45, 85, 145) 70%, rgb(177, 130, 3) 10%); 
+
+    --gradient-electric-fairy: linear-gradient(20deg, rgb(177, 130, 3) 70%, rgb(153, 55, 119) 10%); 
 
     --gradient-normal-dragon: linear-gradient(20deg, rgb(80, 80, 80) 70%, rgba(99,102,173,1) 10%); 
 
@@ -1266,6 +1270,26 @@ progress {
     background-color: var(--clr-ruby-red);
 }
 .progress-bar[class*="rock & fighting"]::-moz-progress-bar {
+    background-color: var(--clr-ruby-red);
+}
+/* Electric & Fairy */
+.pokemon-type[class*="electric & fairy"] {
+    background: var(--gradient-electric-fairy);
+}
+.progress-bar[class*="electric & fairy"]::-webkit-progress-value {
+    background-color: var(--clr-fuschia);
+}
+.progress-bar[class*="electric & fairy"]::-moz-progress-bar {
+    background-color: var(--clr-fuschia);
+}
+/* Steel & Fighting */
+.pokemon-type[class*="steel & fighting"] {
+    background: var(--gradient-steel-fighting);
+}
+.progress-bar[class*="steel & fighting"]::-webkit-progress-value {
+    background-color: var(--clr-ruby-red);
+}
+.progress-bar[class*="steel & fighting"]::-moz-progress-bar {
     background-color: var(--clr-ruby-red);
 }
 /* Dragon & Flying */
