@@ -133,6 +133,8 @@
 
     --gradient-water-ghost: linear-gradient(20deg, rgba(45,85,145,1) 70%, rgba(107,71,112,1) 10%);
 
+    --gradient-water-steel: linear-gradient(20deg, rgba(45,85,145,1) 70%, rgb(117, 117, 127) 10%);
+
     --gradient-steel-psychic: linear-gradient(20deg, rgb(117, 117, 127) 70%, rgba(215,95,030,1) 10%);
 
     --gradient-normal-flying: linear-gradient(20deg, rgb(80, 80, 80) 70%, rgb(63, 118, 178) 10%);
@@ -1891,6 +1893,16 @@ progress {
 }
 .progress-bar[class*="fire & ground"]::-moz-progress-bar {
     background-color: var(--clr-wood-brown);
+}
+/* Water & Steel */
+.pokemon-type[class*="water & steel"] {
+    background: var(--gradient-water-steel);
+}
+.progress-bar[class*="water & steel"]::-webkit-progress-value {
+    background-color: var(--clr-lightest-grey);
+}
+.progress-bar[class*="water & steel"]::-moz-progress-bar {
+    background-color: var(--clr-lightest-grey);
 }
 /* Water & Fairy */
 .pokemon-type[class*="water & fairy"] {

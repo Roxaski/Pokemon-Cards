@@ -5,16 +5,28 @@ const input = document.querySelector('input');
 
 //RANDOMISE POKEMON
 btn.addEventListener('click', (e) => {
+    //prevent default button action
     e.preventDefault();
 
     const randomPokemon = Math.ceil(Math.random() * 1025)
     const promises = [];
     const url = `https://pokeapi.co/api/v2/pokemon/${randomPokemon}`;
+    /*
+    We're pushing the promise that is returned from fetching the data from the API,
+    which is then getting the responsove and converting to json format, 
+    which then returns a promise that is added to the promises array
+    */
     promises.push(fetch(url)
     .then((res) => res.json()));
+    /*
+    All asynchronous calls run parallel to eachother and return a single promise, 
+    which we then get the results in our results object
+    */
     Promise.all(promises)
     .then((results) => {
-        const pokemon = results.map((result) => ({
+        // We get our results, then take each result, which we then return an object for each result (returning an object with an arrow function, requires you to wrap it in parentheses)
+        const pokemon = results.map((result) => 
+        ({
             image: result.sprites['front_default'],
             name: result.name.replace(/-/g,' '),
             id: result.id,
@@ -35,9 +47,9 @@ btn.addEventListener('click', (e) => {
     });
 });
 
+//Calling the function and passing in the pokemon variable, and mapping out the data in said variable
 const displayRandomPokemon = (pokemon) => {
-    const pokemonHTMLString = pokemon
-        .map((details) => 
+    const pokemonHTMLString = pokemon.map((details) =>
         `<ul>
             <li class="card pokemon-type type-${details.type}">
                 <img draggable="false" class="pokemon" src="${details.image}">
@@ -121,8 +133,10 @@ const displayRandomPokemon = (pokemon) => {
                 </div>
             </li>
         </ul>`
+    //Since map returns an array, using .join('') then converts it into a string
     ).join('');
 
+    //Taking the variable and setting it as the innerHTML
     pokemonListLeft.innerHTML = pokemonHTMLString;
 };
 
@@ -139,12 +153,24 @@ input.addEventListener('keydown', (e) => {
 
     const pokemonName = document.getElementById('pokemonName').value.toLowerCase();
     const promises = [];
+    /*
+    We're pushing the promise that is returned from fetching the data from the API,
+    which is then getting the responsove and converting to json format, 
+    which then returns a promise that is added to the promises array
+    */
     const url = `https://pokeapi.co/api/v2/pokemon/${pokemonName}`;
     promises.push(fetch(url)
     .then((res) => res.json()));
+    /*
+    All asynchronous calls run parallel to eachother and return a single promise, 
+    from which we then get our results in our results object,
+    which we then map out the results and pick the data that we want to display
+    */
     Promise.all(promises)
     .then((results) => {
-        const pokemon = results.map((result) => ({
+        // We get our results, then take each result, which we then return an object for each result (returning an object with an arrow function, requires you to wrap it in parentheses)
+        const pokemon = results.map((result) => 
+        ({
             image: result.sprites['front_default'],
             name: result.name.replace(/-/g,' '),
             id: result.id,
@@ -167,9 +193,9 @@ input.addEventListener('keydown', (e) => {
     e.currentTarget.value = "";
 });
 
+//Calling the function and passing in the pokemon variable, and mapping out the data in said variable
 const displayPokemon = (pokemon) => {
-    const pokemonHTMLString = pokemon
-        .map((details) => 
+    const pokemonHTMLString = pokemon.map((details) =>
         `<ul>
             <li class="card pokemon-type type-${details.type}">
                 <img draggable="false" class="pokemon" src="${details.image}">
@@ -253,7 +279,9 @@ const displayPokemon = (pokemon) => {
                 </div>
             </li>
         </ul>`
+    //Since map returns an array, using .join('') then converts it into a string
     ).join('');
 
+    //Taking the variable and setting it as the innerHTML
     pokemonListRight.innerHTML = pokemonHTMLString;
 };
