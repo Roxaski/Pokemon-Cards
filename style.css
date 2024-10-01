@@ -446,6 +446,8 @@
     --gradient-fighting-ice: linear-gradient(20deg, rgb(128, 11, 17) 70%, rgb(61, 163, 161) 10%);
 
     --gradient-electric-dark: linear-gradient(20deg, rgb(177, 130, 3) 70%, rgb(40, 35, 34) 10%);
+
+    --gradient-poison-ghost: linear-gradient(20deg, rgba(109,75,151,1) 70%, rgba(107,71,112,1) 10%);
 }
 body {
     width: 100%;
@@ -1650,6 +1652,16 @@ progress {
     background-color: var(--clr-dark-purple);
 }
 .progress-bar[class*="poison & ground"]::-moz-progress-bar {
+    background-color: var(--clr-dark-purple);
+}
+/* Poison & Ghost */
+.pokemon-type[class*="poison & ghost"] {
+    background: var(--gradient-poison-ghost);
+}
+.progress-bar[class*="poison & ghost"]::-webkit-progress-value {
+    background-color: var(--clr-dark-purple);
+}
+.progress-bar[class*="poison & ghost"]::-moz-progress-bar {
     background-color: var(--clr-dark-purple);
 }
 /* Water & Dragon */
