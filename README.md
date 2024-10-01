@@ -16,4 +16,6 @@ Check it out, and let me know what you think!
 
 [Pokeball Wallpaper](https://wallpapers.com/background/pokeball-2560-x-1440-background-vqdyaksc7n3shdnc.html)
 
+[Project Inspiration](https://www.youtube.com/watch?v=T-VQUKeSU1w&t=1s)
+
 <h1>Copyright</h1>
