@@ -91,6 +91,8 @@
 
     --gradient-ghost-fire: linear-gradient(20deg, rgba(107,71,112,1) 70%, rgb(142, 36, 15) 10%);
 
+    --gradient-ghost-flying: linear-gradient(20deg, rgba(107,71,112,1) 70%, rgb(63, 118, 178) 10%);
+
     --gradient-fire-bug: linear-gradient(20deg, rgb(142, 36, 15) 70%, rgb(87, 88, 33) 10%);
 
     --gradient-ghost-poison: linear-gradient(20deg, rgba(107,71,112,1) 70%, rgba(109,75,151,1) 10%);
@@ -1735,6 +1737,16 @@ progress {
 }
 .progress-bar[class*="grass & dragon"]::-moz-progress-bar {
     background-color: var(--clr-lilac);
+}
+/* Ghost & Flying */
+.pokemon-type[class*="ghost & flying"] {
+    background: var(--gradient-ghost-flying);
+}
+.progress-bar[class*="ghost & flying"]::-webkit-progress-value {
+    background-color: var(--clr-light-blue);
+}
+.progress-bar[class*="ghost & flying"]::-moz-progress-bar {
+    background-color: var(--clr-light-blue);
 }
 /* Normal & Fighting */
 .pokemon-type[class*="normal & fighting"] {
