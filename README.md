@@ -4,9 +4,9 @@
 
 <h1>Pokemon Cards Project</h1>
 
-While i've been studying javaScript and learning about API's, more specifically using fetchAPI. I came across a really cool video by James Quick on Youtube where he used the pokémon API to create a pokedex, and while i used his video to help me understand fetch. 
+While i've been studying javaScript and learning about API's, more specifically using fetchAPI. I came across a really cool video by James Quick on Youtube where he used the pokémon API to create a pokédex, and being a massive fan of the franchise i thought this would be a really fun way to learn working with API's. 
 
-With that i decided to create a mini project where you can press a button to bring up a random pokémon from all the ones available within the API, or if you prefer you can instead specifically search for all your favourite pokémon with just a click of a button, while being able to see alot of awesome informartion about them, including their stats, moveset, abilities and more.
+So i decided to create a mini project where you can press a button to bring up a random pokémon from all the ones available within the API, or if you prefer you can instead specifically search for all your favourite pokémon with just a click of a button, while being able to see alot of awesome informartion about them, including their stats, moveset, abilities and more.
 
 Check it out, and let me know what you think!
 
