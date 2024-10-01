@@ -448,6 +448,8 @@
     --gradient-electric-dark: linear-gradient(20deg, rgb(177, 130, 3) 70%, rgb(40, 35, 34) 10%);
 
     --gradient-poison-ghost: linear-gradient(20deg, rgba(109,75,151,1) 70%, rgba(107,71,112,1) 10%);
+
+    --gradient-dragon-electric: linear-gradient(20deg, rgba(99,102,173,1) 70%, rgb(177, 130, 3) 10%);
 }
 body {
     width: 100%;
@@ -1953,6 +1955,16 @@ progress {
 }
 .progress-bar[class*="rock & dragon"]::-moz-progress-bar {
     background-color: var(--clr-lilac);
+}
+/* Dragon & Electric */
+.pokemon-type[class*="dragon & electric"] {
+    background: var(--gradient-dragon-electric);
+}
+.progress-bar[class*="dragon & electric"]::-webkit-progress-value {
+    background-color: var(--clr-burnt-yellow);
+}
+.progress-bar[class*="dragon & electric"]::-moz-progress-bar {
+    background-color: var(--clr-burnt-yellow);
 }
 /* Fairy & Flying */
 .pokemon-type[class*="fairy & flying"] {
