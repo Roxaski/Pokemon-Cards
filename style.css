@@ -541,7 +541,7 @@ header img {
     overflow: hidden;
 }
 /* Pokemon Cards - Img's */
-.card #pokemon {
+.card .pokemon {
     display: block;
     margin: 50px auto 0;
     max-width: 120px;
@@ -552,7 +552,7 @@ header img {
     background: var(--clr-offWhite);
     box-shadow: 3px 2px 7px rgba(0, 0, 0, .3);
 }
-.card #pokeball {
+.card .pokeball {
     display: block;
     width: 125px;
     height: auto;
@@ -587,21 +587,21 @@ header img {
     border-bottom: 1.5px var(--clr-white) solid;
 }
 /* Pokemon Cards - Info */
-.card .stats-container {
+.card .info-container {
     height: 190px;
     width: 100%;
     overflow-Y: auto;
 }
-.card .stats-container::-webkit-scrollbar {
+.card .info-container::-webkit-scrollbar {
     width: 7px;
 }
-.card .stats-container::-webkit-scrollbar-track {
+.card .info-container::-webkit-scrollbar-track {
     background: transparent;
     box-shadow: inset 0 0 5px rgba(0,0,0,0.3);
     border-radius: 12px;
     margin-top: 1rem;
 }
-.card .stats-container::-webkit-scrollbar-thumb {
+.card .info-container::-webkit-scrollbar-thumb {
     background: var(--clr-offWhite);
     border-radius: 12px;
 }
@@ -655,10 +655,10 @@ progress {
 .progress-bar::-webkit-progress-value {
     border-radius: 5px;
 }
-.stats-wrapper p {
+.stats-container p {
     font-weight: 400;
 }
-.stats-wrapper span {
+.stats-container span {
     font-weight: 300;
 }
 /* Pokemon Card Gradients */

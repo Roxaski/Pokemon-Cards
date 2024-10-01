@@ -38,87 +38,89 @@ btn.addEventListener('click', (e) => {
 const displayRandomPokemon = (pokemon) => {
     const pokemonHTMLString = pokemon
         .map((details) => 
-        `<li class="card pokemon-type type-${details.type}">
-            <img draggable="false" id="pokemon" src="${details.image}">
-            <img draggable="false" id="pokeball" src="./assets/pokeball.webp" alt="">
-            <h2>${details.name}</h2>
-            <h3><span>Pokédex Entry #${details.id}</span></h3>
+        `<ul>
+            <li class="card pokemon-type type-${details.type}">
+                <img draggable="false" class="pokemon" src="${details.image}">
+                <img draggable="false" class="pokeball" src="./assets/pokeball.webp" alt="">
+                <h2>${details.name}</h2>
+                <h3><span>Pokédex Entry #${details.id}</span></h3>
 
-            <div class="stats-container">
-                <div class="info">
-                    <p>
-                        <i class="fa-solid fa-ruler"></i>
-                        <span class="stats-title"> Height | </span> 
-                        ${details.height + `.0`}
-                        <span id="inches">"</span>
-                    </p>
+                <div class="info-container">
+                    <div class="info">
+                        <p>
+                            <i class="fa-solid fa-ruler"></i>
+                            <span class="stats-title"> Height | </span> 
+                            ${details.height + `.0`}
+                            <span id="inches">"</span>
+                        </p>
 
-                    <p>
-                        <i class="fa-solid fa-weight-hanging"></i>
-                        <span class="stats-title"> Weight | </span> 
-                        ${details.weight + `<span id="lbs"> .lbs </span>`}
-                    </p>
+                        <p>
+                            <i class="fa-solid fa-weight-hanging"></i>
+                            <span class="stats-title"> Weight | </span> 
+                            ${details.weight + `<span id="lbs"> .lbs </span>`}
+                        </p>
 
-                    <p>
-                        <i class="fa-solid fa-tag"></i>
-                        <span class="stats-title"> Type | </span> 
-                        ${details.type}
-                    </p>
+                        <p>
+                            <i class="fa-solid fa-tag"></i>
+                            <span class="stats-title"> Type | </span> 
+                            ${details.type}
+                        </p>
 
-                    <p>
-                        <i class="fa-solid fa-certificate"></i>
-                        <span class="stats-title"> Ability | </span> 
-                        ${details.ability}
-                    </p>
+                        <p>
+                            <i class="fa-solid fa-certificate"></i>
+                            <span class="stats-title"> Ability | </span> 
+                            ${details.ability}
+                        </p>
 
-                    <p id="moveset">
-                        <i class="fa-solid fa-compass"></i>
-                        <span class="stats-title"> Moves | </span> 
-                        ${details.moves}
-                    </p>
+                        <p id="moveset">
+                            <i class="fa-solid fa-compass"></i>
+                            <span class="stats-title"> Moves | </span> 
+                            ${details.moves}
+                        </p>
+                    </div>
+                    <div class="stats-container">
+                        <h4>Base Pokémon Stats | </h4>
+
+                        <p>
+                            <i class="fa-solid fa-heart"></i> HP | 
+                            <span>${details.hp}</span> 
+                            <progress class="progress-bar type-${details.type}" value="${details.hp}" max="100"></progress>
+                        </p>
+
+                        <p>
+                            <i class="fa-solid fa-hand-fist"></i> Atk | 
+                            <span>${details.attack}</span>
+                            <progress class="progress-bar type-${details.type}" value="${details.attack}" max="100"></progress>
+                        </p>
+                        
+                        <p>
+                            <i class="fa-solid fa-shield"></i> Def | 
+                            <span>${details.defense}</span> <progress class="progress-bar type-${details.type}" value="${details.defense}" max="100">
+                            </progress>
+                        </p>
+
+                        <p>
+                            <i class="fa-solid fa-wand-magic-sparkles"></i> 
+                            S. Atk | <span>${details.specialAttack}</span> 
+                            <progress class="progress-bar type-${details.type}" value="${details.specialAttack}" max="100"></progress>
+                        </p>
+
+                        <p>
+                            <i class="fa-solid fa-shield-halved"></i>
+                            S. Def | <span>${details.specialDefense}</span> 
+                            <progress class="progress-bar type-${details.type}" value="${details.specialDefense}" max="100">
+                            </progress>
+                        </p>
+
+                        <p>
+                            <i class="fa-solid fa-bolt"></i> 
+                            Speed | <span>${details.speed}</span> 
+                            <progress class="progress-bar type-${details.type}" value="${details.speed}" max="100"></progress>
+                        </p>
+                    </div>
                 </div>
-                <div class="stats-wrapper">
-                    <h4>Base Pokémon Stats | </h4>
-
-                    <p>
-                        <i class="fa-solid fa-heart"></i> HP | 
-                        <span>${details.hp}</span> 
-                        <progress class="progress-bar type-${details.type}" value="${details.hp}" max="100"></progress>
-                    </p>
-
-                    <p>
-                        <i class="fa-solid fa-hand-fist"></i> Atk | 
-                        <span>${details.attack}</span>
-                        <progress class="progress-bar type-${details.type}" value="${details.attack}" max="100"></progress>
-                    </p>
-                    
-                    <p>
-                        <i class="fa-solid fa-shield"></i> Def | 
-                        <span>${details.defense}</span> <progress class="progress-bar type-${details.type}" value="${details.defense}" max="100">
-                        </progress>
-                    </p>
-
-                    <p>
-                        <i class="fa-solid fa-wand-magic-sparkles"></i> 
-                        S. Atk | <span>${details.specialAttack}</span> 
-                        <progress class="progress-bar type-${details.type}" value="${details.specialAttack}" max="100"></progress>
-                    </p>
-
-                    <p>
-                        <i class="fa-solid fa-shield-halved"></i>
-                        S. Def | <span>${details.specialDefense}</span> 
-                        <progress class="progress-bar type-${details.type}" value="${details.specialDefense}" max="100">
-                        </progress>
-                    </p>
-
-                    <p>
-                        <i class="fa-solid fa-bolt"></i> 
-                        Speed | <span>${details.speed}</span> 
-                        <progress class="progress-bar type-${details.type}" value="${details.speed}" max="100"></progress>
-                    </p>
-                </div>
-            </div>
-        </li>`
+            </li>
+        </ul>`
     ).join('');
 
     pokemonListLeft.innerHTML = pokemonHTMLString;
@@ -168,87 +170,89 @@ input.addEventListener('keydown', (e) => {
 const displayPokemon = (pokemon) => {
     const pokemonHTMLString = pokemon
         .map((details) => 
-           `<li class="card pokemon-type type-${details.type}">
-            <img draggable="false" id="pokemon" src="${details.image}">
-            <img draggable="false" id="pokeball" src="./assets/pokeball.webp" alt="">
-            <h2>${details.name}</h2>
-            <h3><span>Pokédex Entry #${details.id}</span></h3>
-            
-            <div class="stats-container">
-                <div class="info">
-                    <p>
-                        <i class="fa-solid fa-ruler"></i>
-                        <span class="stats-title"> Height | </span> 
-                        ${details.height + `.0`}
-                        <span id="inches">"</span>
-                    </p>
+        `<ul>
+            <li class="card pokemon-type type-${details.type}">
+                <img draggable="false" class="pokemon" src="${details.image}">
+                <img draggable="false" class="pokeball" src="./assets/pokeball.webp" alt="">
+                <h2>${details.name}</h2>
+                <h3><span>Pokédex Entry #${details.id}</span></h3>
 
-                    <p>
-                        <i class="fa-solid fa-weight-hanging"></i>
-                        <span class="stats-title"> Weight | </span> 
-                        ${details.weight + `<span id="lbs"> .lbs </span>`}
-                    </p>
+                <div class="info-container">
+                    <div class="info">
+                        <p>
+                            <i class="fa-solid fa-ruler"></i>
+                            <span class="stats-title"> Height | </span> 
+                            ${details.height + `.0`}
+                            <span id="inches">"</span>
+                        </p>
 
-                    <p>
-                        <i class="fa-solid fa-tag"></i>
-                        <span class="stats-title"> Type | </span> 
-                        ${details.type}
-                    </p>
+                        <p>
+                            <i class="fa-solid fa-weight-hanging"></i>
+                            <span class="stats-title"> Weight | </span> 
+                            ${details.weight + `<span id="lbs"> .lbs </span>`}
+                        </p>
 
-                    <p>
-                        <i class="fa-solid fa-certificate"></i>
-                        <span class="stats-title"> Ability | </span> 
-                        ${details.ability}
-                    </p>
+                        <p>
+                            <i class="fa-solid fa-tag"></i>
+                            <span class="stats-title"> Type | </span> 
+                            ${details.type}
+                        </p>
 
-                    <p id="moveset">
-                        <i class="fa-solid fa-compass"></i>
-                        <span class="stats-title"> Moves | </span> 
-                        ${details.moves}
-                    </p>
+                        <p>
+                            <i class="fa-solid fa-certificate"></i>
+                            <span class="stats-title"> Ability | </span> 
+                            ${details.ability}
+                        </p>
+
+                        <p id="moveset">
+                            <i class="fa-solid fa-compass"></i>
+                            <span class="stats-title"> Moves | </span> 
+                            ${details.moves}
+                        </p>
+                    </div>
+                    <div class="stats-container">
+                        <h4>Base Pokémon Stats | </h4>
+
+                        <p>
+                            <i class="fa-solid fa-heart"></i> HP | 
+                            <span>${details.hp}</span> 
+                            <progress class="progress-bar type-${details.type}" value="${details.hp}" max="100"></progress>
+                        </p>
+
+                        <p>
+                            <i class="fa-solid fa-hand-fist"></i> Atk | 
+                            <span>${details.attack}</span>
+                            <progress class="progress-bar type-${details.type}" value="${details.attack}" max="100"></progress>
+                        </p>
+                        
+                        <p>
+                            <i class="fa-solid fa-shield"></i> Def | 
+                            <span>${details.defense}</span> <progress class="progress-bar type-${details.type}" value="${details.defense}" max="100">
+                            </progress>
+                        </p>
+
+                        <p>
+                            <i class="fa-solid fa-wand-magic-sparkles"></i> 
+                            S. Atk | <span>${details.specialAttack}</span> 
+                            <progress class="progress-bar type-${details.type}" value="${details.specialAttack}" max="100"></progress>
+                        </p>
+
+                        <p>
+                            <i class="fa-solid fa-shield-halved"></i>
+                            S. Def | <span>${details.specialDefense}</span> 
+                            <progress class="progress-bar type-${details.type}" value="${details.specialDefense}" max="100">
+                            </progress>
+                        </p>
+
+                        <p>
+                            <i class="fa-solid fa-bolt"></i> 
+                            Speed | <span>${details.speed}</span> 
+                            <progress class="progress-bar type-${details.type}" value="${details.speed}" max="100"></progress>
+                        </p>
+                    </div>
                 </div>
-                <div class="stats-wrapper">
-                    <h4>Base Pokémon Stats | </h4>
-
-                    <p>
-                        <i class="fa-solid fa-heart"></i> HP | 
-                        <span>${details.hp}</span> 
-                        <progress class="progress-bar type-${details.type}" value="${details.hp}" max="100"></progress>
-                    </p>
-
-                    <p>
-                        <i class="fa-solid fa-hand-fist"></i> Atk | 
-                        <span>${details.attack}</span>
-                        <progress class="progress-bar type-${details.type}" value="${details.attack}" max="100"></progress>
-                    </p>
-                    
-                    <p>
-                        <i class="fa-solid fa-shield"></i> Def | 
-                        <span>${details.defense}</span> <progress class="progress-bar type-${details.type}" value="${details.defense}" max="100">
-                        </progress>
-                    </p>
-
-                    <p>
-                        <i class="fa-solid fa-wand-magic-sparkles"></i> 
-                        S. Atk | <span>${details.specialAttack}</span> 
-                        <progress class="progress-bar type-${details.type}" value="${details.specialAttack}" max="100"></progress>
-                    </p>
-
-                    <p>
-                        <i class="fa-solid fa-shield-halved"></i>
-                        S. Def | <span>${details.specialDefense}</span> 
-                        <progress class="progress-bar type-${details.type}" value="${details.specialDefense}" max="100">
-                        </progress>
-                    </p>
-
-                    <p>
-                        <i class="fa-solid fa-bolt"></i> 
-                        Speed | <span>${details.speed}</span> 
-                        <progress class="progress-bar type-${details.type}" value="${details.speed}" max="100"></progress>
-                    </p>
-                </div>
-            </div>
-        </li>`
+            </li>
+        </ul>`
     ).join('');
 
     pokemonListRight.innerHTML = pokemonHTMLString;
