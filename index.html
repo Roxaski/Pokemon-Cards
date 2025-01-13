@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browse all your favourite Pokémon cards, come check out all their stats along with other various information abou your favourite Pokémon">
+    <title>Pokémon Cards | Check out all your favourite Pokémon stats</title>
+    <meta name="theme-color" content="#ab0102">
+    <meta name="msapplication-TileColor" content="#b91d47">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="./script.js"></script>
+</head>
+<body>
+    <header>
+        <img draggable="false" width="700" height="300" src="./assets/logo.webp" alt="logo">
+    </header>
+    <section>
+        <!-- Pokemon Cards -->
+        <div class="grid-container">
+            <div class="left">
+                <button class="btn">random pokémon</button>
+                <ul id="pokemon-list-left"></ul>
+            </div>
+            <div class="right">
+                <div class="search">
+                    <input type="text" id="pokemonName" placeholder="Pokémon Search" spellcheck="false" autocomplete="off" aria-label="search through Pokémon cards">
+                    <i id="icon" class="fa-solid fa-magnifying-glass"></i>
+                    <ul id="pokemon-list-right"></ul>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
