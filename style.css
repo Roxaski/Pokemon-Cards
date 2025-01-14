@@ -461,7 +461,7 @@
 }
 body {
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
     font-family: 'Poppins', sans-serif;
     background: url(./assets/bg.webp);
     background-repeat: no-repeat;
