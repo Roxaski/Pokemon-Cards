@@ -461,15 +461,21 @@
 }
 body {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     font-family: 'Poppins', sans-serif;
-    background: url(./assets/bg.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
     background-color: var(--clr-white);
     cursor: default;
+}
+/* background */
+#bg {
+    position: fixed;
+    background: url(./assets/bg.webp);
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
 }
 /* Header */
 header {
