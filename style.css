@@ -505,6 +505,7 @@ header img {
     text-transform: capitalize;
     text-align: left;
     letter-spacing: .25px;
+    font-size: 1rem;
     color: var(--clr-grey);
     background: var(--clr-white);
     outline: none;
@@ -522,6 +523,7 @@ header img {
     padding: .5rem;
     width: 300px;
     letter-spacing: .25px;
+    font-size: 1rem;
     background: var(--clr-white);
     outline: none;
     border: 1.5px solid var(--clr-white);
@@ -2310,10 +2312,10 @@ progress {
     background: var(--gradient-grass-fairy);
 }
 .progress-bar[class*="grass & fairy"]::-webkit-progress-value {
-    background-color: var(--clr-dark-pink);
+    background-color: var(--clr-fuschia);
 }
 .progress-bar[class*="grass & fairy"]::-moz-progress-bar {
-    background-color: var(--clr-dark-pink);
+    background-color: var(--clr-fuschia);
 }
 /* Ground & Ghost */
 .pokemon-type[class*="ground & ghost"] {
@@ -2697,16 +2699,6 @@ progress {
     .grid-container .right {
         margin-left: 0;
         margin-right: 0;
-    }
-    .grid-container .left button,
-    .grid-container .right input {
-        margin: 15px auto 0;
-    }
-}
-@media screen and (max-width: 650px) {
-    header img {
-        width: 300px;
-        margin: 10px auto 0;
     }
     .grid-container .left button,
     .grid-container .right input {
