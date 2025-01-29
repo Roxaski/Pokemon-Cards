@@ -20,4 +20,4 @@ Wanted to give a huge shoutout to the guys who created the [Poke API](https://po
 
 ## Copyright
 
-I do not claim to own any of the copyright material. Animal Crossing and all it's copyright material are the property of © Nintendo.
+I do not claim to own any of the copyright material. Animal Crossing and all it's copyright material are the property of © The Pokémon Company & © Nintendo.
