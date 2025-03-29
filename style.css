@@ -494,7 +494,7 @@ header img {
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
     margin: 30px auto;
-    max-width: 95rem;
+    max-width: 90rem;
     padding-bottom: 1.4rem;
 }
 .grid-container .left {
