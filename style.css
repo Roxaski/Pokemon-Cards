@@ -532,6 +532,8 @@ header img {
     background: var(--clr-white);
     outline: none;
     border: 1.5px solid var(--clr-white);
+    border-radius: 0;
+    -webkit-border-radius: 0;
     box-shadow: 3px 3px 4px rgba(0,0,0,0.2);
 }
 .grid-container .right input::placeholder {
