@@ -575,7 +575,6 @@ header img {
     box-shadow: 3px 2px 7px rgba(0, 0, 0, .3);
 }
 .card .pokeball {
-    display: block;
     width: 125px;
     height: auto;
     position: absolute;
