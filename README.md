@@ -1,14 +1,16 @@
 ![pokemon_cards](https://github.com/user-attachments/assets/6cbda3c5-d1db-43c3-abc8-10509e6d24cc)
 
-## Welcome to My Pokemon Cards Project
+## Welcome to My Pokémon Cards Project
 
 While i've been studying javaScript and learning about API's, more specifically using fetchAPI. I came across a really cool video by James Quick on Youtube where he used the pokémon API to create a pokédex, and being a massive fan of the franchise i thought this would be a really fun way to learn working with API's. 
 
 So i decided to create a mini project where you can press a button to bring up a random pokémon from all the ones available within the API, or if you prefer you can instead specifically search for all your favourite pokémon with just a click of a button, while being able to see alot of awesome informartion about them, including their stats, moveset, abilities and more.
 
-## 2.0 Update
+## Major Project Update
 
+The project received a major overhaul, as i decided i want to write the whole project from scratch. The reason for this was to get an even better understanding of working with API's and to create something that i feel is alot better than what i had originally created. This means that i wrote the entire code from scratch for better readibility and performance, along with improved page speeds.
 
+While i was working on the update, i also decided that i was going to completely overhaul the design. I added a whole range of backgrounds to match the pokemon types, along with a complete redesign of the Pokémon cards, with new updated high quality artwork, shiny toggle, improved progress bar design and so much more.
 
 ## Feedback
 
