@@ -6,7 +6,7 @@ While i've been studying javaScript and learning about API's, more specifically 
 
 So i decided to create a mini project where you can press a button to bring up a random pokémon from all the ones available within the API, or if you prefer you can instead specifically search for all your favourite pokémon with just a click of a button, while being able to see alot of awesome informartion about them, including their stats, moveset, abilities and more.
 
-## Major Project Update 2.0
+## 2.0 Update
 
 
 
