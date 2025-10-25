@@ -1,14 +1,16 @@
-<p align=center>
-  <img src="https://github.com/user-attachments/assets/ffd7ab32-bb13-48a1-9662-3ca232a06606" width="40%">
-</p>
+![pokemon_cards](https://github.com/user-attachments/assets/6cbda3c5-d1db-43c3-abc8-10509e6d24cc)
 
-![pokemon_cards](https://github.com/user-attachments/assets/f87cbc65-cd8d-4171-ac64-ba7fdaee3fcf)
-
-## Welcome to My Pokemon Cards Project
+## Welcome to My Pokémon Cards Project
 
 While i've been studying javaScript and learning about API's, more specifically using fetchAPI. I came across a really cool video by James Quick on Youtube where he used the pokémon API to create a pokédex, and being a massive fan of the franchise i thought this would be a really fun way to learn working with API's. 
 
 So i decided to create a mini project where you can press a button to bring up a random pokémon from all the ones available within the API, or if you prefer you can instead specifically search for all your favourite pokémon with just a click of a button, while being able to see alot of awesome informartion about them, including their stats, moveset, abilities and more.
+
+## Major Project Update
+
+The project received a major overhaul, as i decided i want to write the whole project from scratch. The reason for this was to get an even better understanding of working with API's and to create something that i feel is alot better than what i had originally created. This means that i wrote the entire code from scratch for better readibility and performance, along with improved page speeds.
+
+While i was working on the update, i also decided that i was going to completely overhaul the design. I added a whole range of backgrounds to match the pokemon types, along with a complete redesign of the Pokémon cards, with new updated high quality artwork, shiny toggle, improved progress bar design and so much more.
 
 ## Feedback
 
@@ -16,7 +18,7 @@ If anyone has any feedback i would greatly appreciate it, as i'm currently learn
 
 ## Credits
 
-Wanted to give a huge shoutout to the guys who created the [Poke API](https://pokeapi.co/) along with a big thankyou to [Project Inspiration](https://www.youtube.com/watch?v=T-VQUKeSU1w&t=1s) for the inspiration for this mini project and the creator [wallpaper](https://wallpapers.com/background/pokeball-2560-x-1440-background-vqdyaksc7n3shdnc.html) of the wallpaper that i used in my project.
+Wanted to say thankyou to the Pokéball wallpaper creator [s1ef](https://wallpapers.com/background/pokeball-2560-x-1440-background-vqdyaksc7n3shdnc.html), along with the shiny icon created by [meaicon](https://www.flaticon.com/free-icons/diamond), and the Pokéball spinner from [WikiMediaCommons](https://commons.wikimedia.org/wiki/File:Pok%C3%A9_Ball_icon.svg), and last but not least, thankyou to the deviant artist [ericfans2003](https://www.deviantart.com/ericfans2003) for his depiction of Eevee.
 
 ## Copyright
 
