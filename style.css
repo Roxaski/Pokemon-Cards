@@ -414,6 +414,9 @@ progress::-webkit-progress-value {
     .pokemon-ivs h2::after {
         display: none;
     }
+    .stats h2 {
+        margin-top: 1rem;
+    }
     .stats .stats-wrapper {
         display: block;
     }
