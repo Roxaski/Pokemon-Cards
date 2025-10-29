@@ -1,3 +1,5 @@
+<img src="https://github.com/user-attachments/assets/4afd15e1-b9ae-4661-af3f-b40ecdc3150c" />
+
 ## Welcome to My Pokémon Cards Project
 
 While i've been studying javaScript and learning about API's, more specifically using fetchAPI. I came across a really cool video by James Quick on Youtube where he used the pokémon API to create a pokédex, and being a massive fan of the franchise i thought this would be a really fun way to learn working with API's.
