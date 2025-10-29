@@ -73,46 +73,32 @@ const pokemonTypeProgressBars = {
 
 const backgrounds = [
     {
-        src: './assets/bg/pokeball_extra_large.webp',
-        srcset: './assets/bg/pokeball_small.webp 480w, ./assets/bg/pokeball_medium.webp 800w, ./assets/bg/pokeball_large.webp 1200w, ./assets/bg/pokeball_extra_large.webp 1920w',
-        sizes: '100vw',
+        src: './assets/bg/pokeball.webp',
         alt: ''
     },
     {
-        src: './assets/bg/forest_meadow_extra_large.webp',
-        srcset: './assets/bg/forest_meadow_small.webp 480w, ./assets/bg/forest_meadow_medium.webp 800w, ./assets/bg/forest_meadow_large.webp 1200w, ./assets/bg/forest_meadow_extra_large.webp 1920w',
-        sizes: '100vw',
+        src: './assets/bg/forest_meadow.webp',
         alt: ''
     },
     {
-        src: './assets/bg/rocky_terrain_extra_large.webp',
-        srcset: './assets/bg/rocky_terrain_small.webp 480w, ./assets/bg/rocky_terrain_medium.webp 800w, ./assets/bg/rocky_terrain_large.webp 1200w, ./assets/bg/rocky_terrain_extra_large.webp 1920w',
-        sizes: '100vw',
+        src: './assets/bg/rocky_terrain.webp',
         alt: ''
     },
     {
-        src: './assets/bg/thunder_plains_extra_large.webp',
-        srcset: './assets/bg/thunder_plains_small.webp 480w, ./assets/bg/thunder_plains_medium.webp 800w, ./assets/bg/thunder_plains_large.webp 1200w, ./assets/bg/thunder_plains_extra_large.webp 1920w',
-        sizes: '100vw',
-        alt: '',
+        src: './assets/bg/thunder_plains.webp',
+        alt: ''
     },
     {
-        src: './assets/bg/seaside_beach_extra_large.webp',
-        srcset: './assets/bg/seaside_beach_small.webp 480w, ./assets/bg/seaside_beach_medium.webp 800w, ./assets/bg/seaside_beach_large.webp 1200w, ./assets/bg/seaside_beach_extra_large.webp 1920w',
-        sizes: '100vw',
-        alt: '',
+        src: './assets/bg/seaside_beach.webp',
+        alt: ''
     },
     {
-        src: './assets/bg/snow_clearing_extra_large.webp',
-        srcset: './assets/bg/snow_clearing_small.webp 480w, ./assets/bg/snow_clearing_medium.webp 800w, ./assets/bg/snow_clearing_large.webp 1200w, ./assets/bg/snow_clearing_extra_large.webp 1920w',
-        sizes: '100vw',
-        alt: '',
+        src: './assets/bg/snow_clearing.webp',
+        alt: ''
     },
     {
-        src: './assets/bg/lava_peaks_extra_large.webp',
-        srcset: './assets/bg/lava_peaks_small.webp 480w, ./assets/bg/lava_peaks_medium.webp 800w, ./assets/bg/lava_peaks_large.webp 1200w, ./assets/bg/lava_peaks_extra_large.webp 1920w',
-        sizes: '100vw',
-        alt: '',
+        src: './assets/bg/lava_peaks.webp',
+        alt: ''
     },
 ];
 
@@ -122,14 +108,11 @@ const backgrounds = [
 */
 let currentBackground = localStorage.getItem('bgIndex') || 0;
 
-// loads the background by fetching the background image source along with source set for responsiveness
+// loads the background by fetching the background image
 function loadBackground() {
     const bg = backgrounds[currentBackground];
 
     backgroundImg.src = bg.src;
-    backgroundImg.srcset = bg.srcset;
-    backgroundImg.sizes = bg.sizes;
-    backgroundImg.alt = bg.alt;
 };
 
 loadBackground();
