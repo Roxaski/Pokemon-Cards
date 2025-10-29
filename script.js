@@ -128,6 +128,7 @@ function loadBackground() {
 
     backgroundImg.src = bg.src;
     backgroundImg.srcset = bg.srcset;
+    backgroundImg.sizes = bg.sizes;
     backgroundImg.alt = bg.alt;
 };
 
