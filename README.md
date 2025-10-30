@@ -15,7 +15,8 @@ While i was working on the update, i also decided that i was going to completely
 ## Feedback
 
 If anyone has any feedback i would greatly appreciate it, as i'm currently learning web development and if anybody has any constructive notes for me to improve upon, that would be great! For anyone that checks it out i hope you enjoyed browsing it as much as i enjoyed building it.
-Credits
+
+## Credits
 
 Wanted to say thankyou to the Pokéball wallpaper creator s1ef, along with the shiny icon created by meaicon, and the Pokéball spinner from WikiMediaCommons, and last but not least, thankyou to the deviant artist ericfans2003 for his depiction of Eevee.
 
