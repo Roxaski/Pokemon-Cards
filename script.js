@@ -276,8 +276,8 @@ function displayPokemonCard() {
             </div>
 
             <div class="measurements">
-                <p>Height | ${pokemonData.height}m</p>
-                <p>Weight | ${pokemonData.weight}kg</p>
+                <p>Height : ${pokemonData.height}m</p>
+                <p>Weight : ${pokemonData.weight}kg</p>
             </div>
 
             <div class="type">
