@@ -18,7 +18,7 @@ If anyone has any feedback i would greatly appreciate it, as i'm currently learn
 
 ## Credits
 
-Wanted to say thankyou to the Pokéball wallpaper creator s1ef, along with the shiny icon created by meaicon, and the Pokéball spinner from WikiMediaCommons, and last but not least, thankyou to the deviant artist ericfans2003 for his depiction of Eevee.
+Wanted to say thankyou to the Pokéball wallpaper creator [s1ef](https://wallpapers.com/background/pokeball-2560-x-1440-background-vqdyaksc7n3shdnc.html), along with the shiny icon created by [meaicon](https://www.flaticon.com/authors/meaicon), and the Pokéball spinner from [WikiMediaCommons](https://commons.wikimedia.org/wiki/File:Pok%C3%A9_Ball_icon.svg) and last but not least, thankyou to the deviant artist [ericfans2003](https://www.deviantart.com/ericfans2003) for his depiction of Eevee.
 
 ## Copyright
 
