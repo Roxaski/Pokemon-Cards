@@ -218,7 +218,6 @@ function searchPokemonByName() {
 // displays the pokemon card when pressing the enter key
 searchInput.addEventListener('keydown', (e) => {
     if (e.key === 'Enter') {
-        e.preventDefault();
         searchPokemonByName();
     };
 });
