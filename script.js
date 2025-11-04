@@ -244,6 +244,17 @@ function displayPokemonCard() {
     const types = pokemonData.type.split(' & ');
     const primaryType = types[0];
     const secondaryType = types[1];
+    
+    /*
+        checks if the stats are maxed out, if so then it returns 'maxStats' as string,
+        which is the class name used to pass the value otherwise it just returns an empty string
+    */ 
+    function maxStats(stat) {
+    if (stat >= 100) {
+        return 'maxStats';
+    };
+        return '';
+    };
 
     /*
         {Math.max(pokemonData.hp, 35) -> this is to keep the text readable,
@@ -304,32 +315,32 @@ function displayPokemonCard() {
                 <h2>pokémon IV's</h2>
                 <div class="progress-bars">
                     <span>HP | ${pokemonData.hp}</span>
-                    <progress value="${Math.max(pokemonData.hp, 35)}" max="100"></progress>
+                    <progress class="${maxStats(pokemonData.hp)}" value="${Math.max(pokemonData.hp, 35)}" max="100"></progress>
                 </div>
 
                 <div class="progress-bars">
                     <span>ATK | ${pokemonData.attack}</span>
-                    <progress value="${Math.max(pokemonData.attack, 35)}" max="100"></progress>
+                    <progress class="${maxStats(pokemonData.attack)}" value="${Math.max(pokemonData.attack, 35)}" max="100"></progress>
                 </div>
 
                 <div class="progress-bars">
                     <span>DEF | ${pokemonData.defense}</span>
-                    <progress value="${Math.max(pokemonData.defense, 35)}" max="100"></progress>
+                    <progress class="${maxStats(pokemonData.defense)}" value="${Math.max(pokemonData.defense, 35)}" max="100"></progress>
                 </div>
 
                 <div class="progress-bars">
                     <span>SP ATK | ${pokemonData.specialAttack}</span>
-                    <progress value="${Math.max(pokemonData.specialAttack, 35)}" max="100"></progress>
+                    <progress class="${maxStats(pokemonData.specialAttack)}" value="${Math.max(pokemonData.specialAttack, 35)}" max="100"></progress>
                 </div>
 
                 <div class="progress-bars">
                     <span>SP DEF | ${pokemonData.specialDefense}</span>
-                    <progress value="${Math.max(pokemonData.specialDefense, 35)}" max="100"></progress>
+                    <progress class="${maxStats(pokemonData.specialDefense)}" value="${Math.max(pokemonData.specialDefense, 35)}" max="100"></progress>
                 </div>
 
                 <div class="progress-bars">
                     <span>SPD | ${pokemonData.speed}</span>
-                    <progress value="${Math.max(pokemonData.speed, 35)}" max="100"></progress>
+                    <progress class="${maxStats(pokemonData.speed)}" value="${Math.max(pokemonData.speed, 35)}" max="100"></progress>
                 </div>
             </div>
         </div>
@@ -344,11 +355,6 @@ function displayPokemonCard() {
 
    // sets the colour of the progress bars
     pokemonCard.style.setProperty('--clr-progressBar', pokemonTypeProgressBars[primaryType]);
-
-    // checks which stats will hit the max value in order to add the border radius in chrome
-    document.querySelectorAll('progress').forEach(progress => {
-        progress.classList.toggle('maxStats', progress.value >= progress.max);
-    });
 
     // hide spinner when pokemon image has loaded
     pokemonImage.onload = () => {
