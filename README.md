@@ -1,4 +1,4 @@
-<img src="https://github.com/user-attachments/assets/4afd15e1-b9ae-4661-af3f-b40ecdc3150c" />
+<img width="1920" height="1080" alt="github_read me" src="https://github.com/user-attachments/assets/4afd15e1-b9ae-4661-af3f-b40ecdc3150c" />
 
 ## Welcome to My Pokémon Cards Project
 
